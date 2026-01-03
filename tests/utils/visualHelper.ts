@@ -73,9 +73,25 @@ export class VisualHelper {
         // This ensures holistic page health beyond just components.
         Logger.info('Visual', `Capturing main screenshot for ${pageDef.name}...`);
 
-        const screenshotName = `${pageDef.name.replace(/\s+/g, '_').toLowerCase()}.png`;
+        // Custom naming as requested by user
+        let customName = pageDef.name.toLowerCase();
+        if (customName === 'home page') customName = 'home full page';
+        if (customName === 'courses page') customName = 'courses full page';
 
-        await expect(page).toHaveScreenshot(screenshotName, {
+        const fileName = `${customName}.png`;
+
+        // 1. Save "Ideal" screenshot to separate folder as requested
+        await page.screenshot({
+            path: `ideal_screenshots/${fileName}`,
+            fullPage: pageDef.screenshotConfig?.fullPage ?? true,
+            mask: maskLocators,
+            maskColor: '#FF00FF',
+            animations: 'disabled'
+        });
+        Logger.success('Visual', `Saved ideal screenshot to ideal_screenshots/${fileName}`);
+
+        // 2. Perform Playwright Visual Assertion (Comparison)
+        await expect(page).toHaveScreenshot(fileName, {
             fullPage: pageDef.screenshotConfig?.fullPage ?? true,
             mask: maskLocators,
             maskColor: '#FF00FF', // High contrast magenta for debugging masks

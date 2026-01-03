@@ -51,5 +51,26 @@ export const homePage: PageDefinition = {
     screenshotConfig: {
         fullPage: true,
         maxDiffPixelRatio: 0.02
+    },
+
+    // Scroll to bottom incrementally to ensure all lazy loaded elements are rendered
+    beforeSnapshot: async (page: import('@playwright/test').Page) => {
+        await page.evaluate(async () => {
+            const distance = 100;
+            const delay = 100;
+            const timer = setInterval(() => {
+                const scroller = document.scrollingElement || document.body;
+                scroller.scrollBy(0, distance);
+                if (scroller.scrollTop + window.innerHeight >= scroller.scrollHeight) {
+                    clearInterval(timer);
+                }
+            }, delay);
+        });
+        // Wait sufficient time for the scroll to reach bottom
+        await page.waitForTimeout(3000);
+
+        // Scroll back to top for standard screenshot alignment
+        await page.evaluate(() => window.scrollTo(0, 0));
+        await page.waitForTimeout(500);
     }
 };

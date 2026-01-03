@@ -87,15 +87,23 @@ export const coursesPageDef: PageDefinition = {
     maskedElements: [],
 
     // Scroll to bottom to ensure all course cards are loaded/rendered
+    // Scroll to bottom incrementally to ensure all lazy loaded elements are rendered
     beforeSnapshot: async (page: import('@playwright/test').Page) => {
         await page.evaluate(async () => {
-            window.scrollTo(0, document.body.scrollHeight);
+            const distance = 100;
+            const delay = 100;
+            const timer = setInterval(() => {
+                const scroller = document.scrollingElement || document.body;
+                scroller.scrollBy(0, distance);
+                if (scroller.scrollTop + window.innerHeight >= scroller.scrollHeight) {
+                    clearInterval(timer);
+                }
+            }, delay);
         });
-        // Short wait for any lazy load animations
-        await page.waitForTimeout(500);
-        // Scroll back to top for standard screenshot alignment if needed, 
-        // OR leave it if fullPage handles it. FullPage usually handles it, but 
-        // sometimes lazy loaded elements need to have been in viewport once.
+        // Wait sufficient time for the scroll to reach bottom
+        await page.waitForTimeout(2000);
+
+        // Scroll back to top for standard screenshot alignment
         await page.evaluate(() => window.scrollTo(0, 0));
         await page.waitForTimeout(500);
     },
