@@ -1,0 +1,24 @@
+{
+  "name": "ui-regression-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuvrajsingh2428/ui-regression-tests.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/yuvrajsingh2428/ui-regression-tests/issues"
+  },
+  "homepage": "https://github.com/yuvrajsingh2428/ui-regression-tests#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.57.0"
+  }
+}
