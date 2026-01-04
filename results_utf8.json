@@ -1,0 +1,891 @@
+﻿{
+  "config": {
+    "configFile": "C:\\Users\\MSI PC\\ui-regression-tests\\playwright.ideal.config.ts",
+    "rootDir": "C:/Users/MSI PC/ui-regression-tests/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 8
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "json"
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/Users/MSI PC/ui-regression-tests/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 8
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/MSI PC/ui-regression-tests/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 90000
+      }
+    ],
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.57.0",
+    "workers": 8,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "visual\\compareIdeal.spec.ts",
+      "file": "visual/compareIdeal.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Pixel-Perfect Comparison against Ideal Baselines",
+          "file": "visual/compareIdeal.spec.ts",
+          "line": 8,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Compare Home Page vs Ideal",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 11276,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mBuffer\u001b[39m\u001b[2m).\u001b[22mtoMatchSnapshot\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\n  Buffers differ\n\n  Snapshot: home_page.png\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mBuffer\u001b[39m\u001b[2m).\u001b[22mtoMatchSnapshot\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\n  Buffers differ\n\n  Snapshot: home_page.png\n\n    at C:\\Users\\MSI PC\\ui-regression-tests\\tests\\visual\\compareIdeal.spec.ts:54:26",
+                        "location": {
+                          "file": "C:\\Users\\MSI PC\\ui-regression-tests\\tests\\visual\\compareIdeal.spec.ts",
+                          "column": 26,
+                          "line": 54
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 52 |\u001b[39m       })\u001b[33m;\u001b[39m\n \u001b[90m 53 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 54 |\u001b[39m       expect(screenshot)\u001b[33m.\u001b[39mtoMatchSnapshot(fileName\u001b[33m,\u001b[39m {\n \u001b[90m    |\u001b[39m                          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 55 |\u001b[39m         maxDiffPixels\u001b[33m:\u001b[39m \u001b[35m100\u001b[39m\u001b[33m,\u001b[39m\n \u001b[90m 56 |\u001b[39m         threshold\u001b[33m:\u001b[39m \u001b[35m0.2\u001b[39m\u001b[33m,\u001b[39m\n \u001b[90m 57 |\u001b[39m       })\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\MSI PC\\ui-regression-tests\\tests\\visual\\compareIdeal.spec.ts",
+                            "column": 26,
+                            "line": 54
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mBuffer\u001b[39m\u001b[2m).\u001b[22mtoMatchSnapshot\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\n  Buffers differ\n\n  Snapshot: home_page.png\n\n\n  52 |       });\n  53 |\n> 54 |       expect(screenshot).toMatchSnapshot(fileName, {\n     |                          ^\n  55 |         maxDiffPixels: 100,\n  56 |         threshold: 0.2,\n  57 |       });\n    at C:\\Users\\MSI PC\\ui-regression-tests\\tests\\visual\\compareIdeal.spec.ts:54:26"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "Navigating to: https://www.tle-eliminators.com/\n"
+                        },
+                        {
+                          "text": "Comparing against: home_page.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-04T10:23:54.062Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "home-page-expected.png",
+                          "contentType": "application/octet-stream",
+                          "path": "C:\\Users\\MSI PC\\ideal_screenshots\\home-page"
+                        },
+                        {
+                          "name": "home-page-actual.png",
+                          "contentType": "application/octet-stream",
+                          "path": "C:\\Users\\MSI PC\\ui-regression-tests\\test-results\\visual-compareIdeal-Pixel--1c661--Compare-Home-Page-vs-Ideal-chromium\\home-page-actual.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\MSI PC\\ui-regression-tests\\test-results\\visual-compareIdeal-Pixel--1c661--Compare-Home-Page-vs-Ideal-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\MSI PC\\ui-regression-tests\\tests\\visual\\compareIdeal.spec.ts",
+                        "column": 26,
+                        "line": 54
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "34813b629284199bd84f-c067ef8d0378b5d8dd5e",
+              "file": "visual/compareIdeal.spec.ts",
+              "line": 14,
+              "column": 9
+            },
+            {
+              "title": "Compare Courses Page vs Ideal",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "failed",
+                      "duration": 13197,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mBuffer\u001b[39m\u001b[2m).\u001b[22mtoMatchSnapshot\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\n  Buffers differ\n\n  Snapshot: courses_page.png\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mBuffer\u001b[39m\u001b[2m).\u001b[22mtoMatchSnapshot\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\n  Buffers differ\n\n  Snapshot: courses_page.png\n\n    at C:\\Users\\MSI PC\\ui-regression-tests\\tests\\visual\\compareIdeal.spec.ts:54:26",
+                        "location": {
+                          "file": "C:\\Users\\MSI PC\\ui-regression-tests\\tests\\visual\\compareIdeal.spec.ts",
+                          "column": 26,
+                          "line": 54
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 52 |\u001b[39m       })\u001b[33m;\u001b[39m\n \u001b[90m 53 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 54 |\u001b[39m       expect(screenshot)\u001b[33m.\u001b[39mtoMatchSnapshot(fileName\u001b[33m,\u001b[39m {\n \u001b[90m    |\u001b[39m                          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 55 |\u001b[39m         maxDiffPixels\u001b[33m:\u001b[39m \u001b[35m100\u001b[39m\u001b[33m,\u001b[39m\n \u001b[90m 56 |\u001b[39m         threshold\u001b[33m:\u001b[39m \u001b[35m0.2\u001b[39m\u001b[33m,\u001b[39m\n \u001b[90m 57 |\u001b[39m       })\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\MSI PC\\ui-regression-tests\\tests\\visual\\compareIdeal.spec.ts",
+                            "column": 26,
+                            "line": 54
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mBuffer\u001b[39m\u001b[2m).\u001b[22mtoMatchSnapshot\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\n  Buffers differ\n\n  Snapshot: courses_page.png\n\n\n  52 |       });\n  53 |\n> 54 |       expect(screenshot).toMatchSnapshot(fileName, {\n     |                          ^\n  55 |         maxDiffPixels: 100,\n  56 |         threshold: 0.2,\n  57 |       });\n    at C:\\Users\\MSI PC\\ui-regression-tests\\tests\\visual\\compareIdeal.spec.ts:54:26"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "Navigating to: https://www.tle-eliminators.com/courses\n"
+                        },
+                        {
+                          "text": "Comparing against: courses_page.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-04T10:23:54.095Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "courses-page-expected.png",
+                          "contentType": "application/octet-stream",
+                          "path": "C:\\Users\\MSI PC\\ideal_screenshots\\courses-page"
+                        },
+                        {
+                          "name": "courses-page-actual.png",
+                          "contentType": "application/octet-stream",
+                          "path": "C:\\Users\\MSI PC\\ui-regression-tests\\test-results\\visual-compareIdeal-Pixel--5c801-mpare-Courses-Page-vs-Ideal-chromium\\courses-page-actual.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\MSI PC\\ui-regression-tests\\test-results\\visual-compareIdeal-Pixel--5c801-mpare-Courses-Page-vs-Ideal-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\MSI PC\\ui-regression-tests\\tests\\visual\\compareIdeal.spec.ts",
+                        "column": 26,
+                        "line": 54
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "34813b629284199bd84f-cc888270f4513cb482ae",
+              "file": "visual/compareIdeal.spec.ts",
+              "line": 14,
+              "column": 9
+            },
+            {
+              "title": "Compare CP-31 Sheet vs Ideal",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "failed",
+                      "duration": 17800,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mBuffer\u001b[39m\u001b[2m).\u001b[22mtoMatchSnapshot\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\n  Buffers differ\n\n  Snapshot: cp-31_sheet.png\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mBuffer\u001b[39m\u001b[2m).\u001b[22mtoMatchSnapshot\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\n  Buffers differ\n\n  Snapshot: cp-31_sheet.png\n\n    at C:\\Users\\MSI PC\\ui-regression-tests\\tests\\visual\\compareIdeal.spec.ts:54:26",
+                        "location": {
+                          "file": "C:\\Users\\MSI PC\\ui-regression-tests\\tests\\visual\\compareIdeal.spec.ts",
+                          "column": 26,
+                          "line": 54
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 52 |\u001b[39m       })\u001b[33m;\u001b[39m\n \u001b[90m 53 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 54 |\u001b[39m       expect(screenshot)\u001b[33m.\u001b[39mtoMatchSnapshot(fileName\u001b[33m,\u001b[39m {\n \u001b[90m    |\u001b[39m                          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 55 |\u001b[39m         maxDiffPixels\u001b[33m:\u001b[39m \u001b[35m100\u001b[39m\u001b[33m,\u001b[39m\n \u001b[90m 56 |\u001b[39m         threshold\u001b[33m:\u001b[39m \u001b[35m0.2\u001b[39m\u001b[33m,\u001b[39m\n \u001b[90m 57 |\u001b[39m       })\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\MSI PC\\ui-regression-tests\\tests\\visual\\compareIdeal.spec.ts",
+                            "column": 26,
+                            "line": 54
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mBuffer\u001b[39m\u001b[2m).\u001b[22mtoMatchSnapshot\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\n  Buffers differ\n\n  Snapshot: cp-31_sheet.png\n\n\n  52 |       });\n  53 |\n> 54 |       expect(screenshot).toMatchSnapshot(fileName, {\n     |                          ^\n  55 |         maxDiffPixels: 100,\n  56 |         threshold: 0.2,\n  57 |       });\n    at C:\\Users\\MSI PC\\ui-regression-tests\\tests\\visual\\compareIdeal.spec.ts:54:26"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "Navigating to: https://www.tle-eliminators.com/cp-sheet\n"
+                        },
+                        {
+                          "text": "Comparing against: cp-31_sheet.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-04T10:23:54.086Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "cp-31-sheet-expected.png",
+                          "contentType": "application/octet-stream",
+                          "path": "C:\\Users\\MSI PC\\ideal_screenshots\\cp-31-sheet"
+                        },
+                        {
+                          "name": "cp-31-sheet-actual.png",
+                          "contentType": "application/octet-stream",
+                          "path": "C:\\Users\\MSI PC\\ui-regression-tests\\test-results\\visual-compareIdeal-Pixel--fb595-ompare-CP-31-Sheet-vs-Ideal-chromium\\cp-31-sheet-actual.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\MSI PC\\ui-regression-tests\\test-results\\visual-compareIdeal-Pixel--fb595-ompare-CP-31-Sheet-vs-Ideal-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\MSI PC\\ui-regression-tests\\tests\\visual\\compareIdeal.spec.ts",
+                        "column": 26,
+                        "line": 54
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "34813b629284199bd84f-e6594ba2d3e7cfcb51a1",
+              "file": "visual/compareIdeal.spec.ts",
+              "line": 14,
+              "column": 9
+            },
+            {
+              "title": "Compare Contest Tracker vs Ideal",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "failed",
+                      "duration": 16950,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mBuffer\u001b[39m\u001b[2m).\u001b[22mtoMatchSnapshot\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\n  Buffers differ\n\n  Snapshot: contest_tracker.png\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mBuffer\u001b[39m\u001b[2m).\u001b[22mtoMatchSnapshot\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\n  Buffers differ\n\n  Snapshot: contest_tracker.png\n\n    at C:\\Users\\MSI PC\\ui-regression-tests\\tests\\visual\\compareIdeal.spec.ts:54:26",
+                        "location": {
+                          "file": "C:\\Users\\MSI PC\\ui-regression-tests\\tests\\visual\\compareIdeal.spec.ts",
+                          "column": 26,
+                          "line": 54
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 52 |\u001b[39m       })\u001b[33m;\u001b[39m\n \u001b[90m 53 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 54 |\u001b[39m       expect(screenshot)\u001b[33m.\u001b[39mtoMatchSnapshot(fileName\u001b[33m,\u001b[39m {\n \u001b[90m    |\u001b[39m                          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 55 |\u001b[39m         maxDiffPixels\u001b[33m:\u001b[39m \u001b[35m100\u001b[39m\u001b[33m,\u001b[39m\n \u001b[90m 56 |\u001b[39m         threshold\u001b[33m:\u001b[39m \u001b[35m0.2\u001b[39m\u001b[33m,\u001b[39m\n \u001b[90m 57 |\u001b[39m       })\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\MSI PC\\ui-regression-tests\\tests\\visual\\compareIdeal.spec.ts",
+                            "column": 26,
+                            "line": 54
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mBuffer\u001b[39m\u001b[2m).\u001b[22mtoMatchSnapshot\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\n  Buffers differ\n\n  Snapshot: contest_tracker.png\n\n\n  52 |       });\n  53 |\n> 54 |       expect(screenshot).toMatchSnapshot(fileName, {\n     |                          ^\n  55 |         maxDiffPixels: 100,\n  56 |         threshold: 0.2,\n  57 |       });\n    at C:\\Users\\MSI PC\\ui-regression-tests\\tests\\visual\\compareIdeal.spec.ts:54:26"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "Navigating to: https://www.tle-eliminators.com/contest-tracker\n"
+                        },
+                        {
+                          "text": "Comparing against: contest_tracker.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-04T10:23:54.106Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "contest-tracker-expected.png",
+                          "contentType": "application/octet-stream",
+                          "path": "C:\\Users\\MSI PC\\ideal_screenshots\\contest-tracker"
+                        },
+                        {
+                          "name": "contest-tracker-actual.png",
+                          "contentType": "application/octet-stream",
+                          "path": "C:\\Users\\MSI PC\\ui-regression-tests\\test-results\\visual-compareIdeal-Pixel--0fa74-re-Contest-Tracker-vs-Ideal-chromium\\contest-tracker-actual.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\MSI PC\\ui-regression-tests\\test-results\\visual-compareIdeal-Pixel--0fa74-re-Contest-Tracker-vs-Ideal-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\MSI PC\\ui-regression-tests\\tests\\visual\\compareIdeal.spec.ts",
+                        "column": 26,
+                        "line": 54
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "34813b629284199bd84f-dc6d33b6a2af84a34b31",
+              "file": "visual/compareIdeal.spec.ts",
+              "line": 14,
+              "column": 9
+            },
+            {
+              "title": "Compare CP Digest vs Ideal",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 4,
+                      "status": "failed",
+                      "duration": 16817,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mBuffer\u001b[39m\u001b[2m).\u001b[22mtoMatchSnapshot\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\n  Buffers differ\n\n  Snapshot: cp_digest.png\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mBuffer\u001b[39m\u001b[2m).\u001b[22mtoMatchSnapshot\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\n  Buffers differ\n\n  Snapshot: cp_digest.png\n\n    at C:\\Users\\MSI PC\\ui-regression-tests\\tests\\visual\\compareIdeal.spec.ts:54:26",
+                        "location": {
+                          "file": "C:\\Users\\MSI PC\\ui-regression-tests\\tests\\visual\\compareIdeal.spec.ts",
+                          "column": 26,
+                          "line": 54
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 52 |\u001b[39m       })\u001b[33m;\u001b[39m\n \u001b[90m 53 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 54 |\u001b[39m       expect(screenshot)\u001b[33m.\u001b[39mtoMatchSnapshot(fileName\u001b[33m,\u001b[39m {\n \u001b[90m    |\u001b[39m                          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 55 |\u001b[39m         maxDiffPixels\u001b[33m:\u001b[39m \u001b[35m100\u001b[39m\u001b[33m,\u001b[39m\n \u001b[90m 56 |\u001b[39m         threshold\u001b[33m:\u001b[39m \u001b[35m0.2\u001b[39m\u001b[33m,\u001b[39m\n \u001b[90m 57 |\u001b[39m       })\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\MSI PC\\ui-regression-tests\\tests\\visual\\compareIdeal.spec.ts",
+                            "column": 26,
+                            "line": 54
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mBuffer\u001b[39m\u001b[2m).\u001b[22mtoMatchSnapshot\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\n  Buffers differ\n\n  Snapshot: cp_digest.png\n\n\n  52 |       });\n  53 |\n> 54 |       expect(screenshot).toMatchSnapshot(fileName, {\n     |                          ^\n  55 |         maxDiffPixels: 100,\n  56 |         threshold: 0.2,\n  57 |       });\n    at C:\\Users\\MSI PC\\ui-regression-tests\\tests\\visual\\compareIdeal.spec.ts:54:26"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "Navigating to: https://www.tle-eliminators.com/cp-digest\n"
+                        },
+                        {
+                          "text": "Comparing against: cp_digest.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-04T10:23:54.086Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "cp-digest-expected.png",
+                          "contentType": "application/octet-stream",
+                          "path": "C:\\Users\\MSI PC\\ideal_screenshots\\cp-digest"
+                        },
+                        {
+                          "name": "cp-digest-actual.png",
+                          "contentType": "application/octet-stream",
+                          "path": "C:\\Users\\MSI PC\\ui-regression-tests\\test-results\\visual-compareIdeal-Pixel--e067d--Compare-CP-Digest-vs-Ideal-chromium\\cp-digest-actual.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\MSI PC\\ui-regression-tests\\test-results\\visual-compareIdeal-Pixel--e067d--Compare-CP-Digest-vs-Ideal-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\MSI PC\\ui-regression-tests\\tests\\visual\\compareIdeal.spec.ts",
+                        "column": 26,
+                        "line": 54
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "34813b629284199bd84f-707064be1e62afee4fd1",
+              "file": "visual/compareIdeal.spec.ts",
+              "line": 14,
+              "column": 9
+            },
+            {
+              "title": "Compare FAQs Page vs Ideal",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 5,
+                      "status": "failed",
+                      "duration": 16094,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mBuffer\u001b[39m\u001b[2m).\u001b[22mtoMatchSnapshot\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\n  Buffers differ\n\n  Snapshot: faqs_page.png\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mBuffer\u001b[39m\u001b[2m).\u001b[22mtoMatchSnapshot\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\n  Buffers differ\n\n  Snapshot: faqs_page.png\n\n    at C:\\Users\\MSI PC\\ui-regression-tests\\tests\\visual\\compareIdeal.spec.ts:54:26",
+                        "location": {
+                          "file": "C:\\Users\\MSI PC\\ui-regression-tests\\tests\\visual\\compareIdeal.spec.ts",
+                          "column": 26,
+                          "line": 54
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 52 |\u001b[39m       })\u001b[33m;\u001b[39m\n \u001b[90m 53 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 54 |\u001b[39m       expect(screenshot)\u001b[33m.\u001b[39mtoMatchSnapshot(fileName\u001b[33m,\u001b[39m {\n \u001b[90m    |\u001b[39m                          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 55 |\u001b[39m         maxDiffPixels\u001b[33m:\u001b[39m \u001b[35m100\u001b[39m\u001b[33m,\u001b[39m\n \u001b[90m 56 |\u001b[39m         threshold\u001b[33m:\u001b[39m \u001b[35m0.2\u001b[39m\u001b[33m,\u001b[39m\n \u001b[90m 57 |\u001b[39m       })\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\MSI PC\\ui-regression-tests\\tests\\visual\\compareIdeal.spec.ts",
+                            "column": 26,
+                            "line": 54
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mBuffer\u001b[39m\u001b[2m).\u001b[22mtoMatchSnapshot\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\n  Buffers differ\n\n  Snapshot: faqs_page.png\n\n\n  52 |       });\n  53 |\n> 54 |       expect(screenshot).toMatchSnapshot(fileName, {\n     |                          ^\n  55 |         maxDiffPixels: 100,\n  56 |         threshold: 0.2,\n  57 |       });\n    at C:\\Users\\MSI PC\\ui-regression-tests\\tests\\visual\\compareIdeal.spec.ts:54:26"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "Navigating to: https://www.tle-eliminators.com/faqs\n"
+                        },
+                        {
+                          "text": "Comparing against: faqs_page.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-04T10:23:54.140Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "faqs-page-expected.png",
+                          "contentType": "application/octet-stream",
+                          "path": "C:\\Users\\MSI PC\\ideal_screenshots\\faqs-page"
+                        },
+                        {
+                          "name": "faqs-page-actual.png",
+                          "contentType": "application/octet-stream",
+                          "path": "C:\\Users\\MSI PC\\ui-regression-tests\\test-results\\visual-compareIdeal-Pixel--4c49b--Compare-FAQs-Page-vs-Ideal-chromium\\faqs-page-actual.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\MSI PC\\ui-regression-tests\\test-results\\visual-compareIdeal-Pixel--4c49b--Compare-FAQs-Page-vs-Ideal-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\MSI PC\\ui-regression-tests\\tests\\visual\\compareIdeal.spec.ts",
+                        "column": 26,
+                        "line": 54
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "34813b629284199bd84f-fc5089af5e6d43ac1964",
+              "file": "visual/compareIdeal.spec.ts",
+              "line": 14,
+              "column": 9
+            },
+            {
+              "title": "Compare Terms Page vs Ideal",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "parallelIndex": 6,
+                      "status": "failed",
+                      "duration": 17943,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mBuffer\u001b[39m\u001b[2m).\u001b[22mtoMatchSnapshot\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\n  Buffers differ\n\n  Snapshot: terms_page.png\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mBuffer\u001b[39m\u001b[2m).\u001b[22mtoMatchSnapshot\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\n  Buffers differ\n\n  Snapshot: terms_page.png\n\n    at C:\\Users\\MSI PC\\ui-regression-tests\\tests\\visual\\compareIdeal.spec.ts:54:26",
+                        "location": {
+                          "file": "C:\\Users\\MSI PC\\ui-regression-tests\\tests\\visual\\compareIdeal.spec.ts",
+                          "column": 26,
+                          "line": 54
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 52 |\u001b[39m       })\u001b[33m;\u001b[39m\n \u001b[90m 53 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 54 |\u001b[39m       expect(screenshot)\u001b[33m.\u001b[39mtoMatchSnapshot(fileName\u001b[33m,\u001b[39m {\n \u001b[90m    |\u001b[39m                          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 55 |\u001b[39m         maxDiffPixels\u001b[33m:\u001b[39m \u001b[35m100\u001b[39m\u001b[33m,\u001b[39m\n \u001b[90m 56 |\u001b[39m         threshold\u001b[33m:\u001b[39m \u001b[35m0.2\u001b[39m\u001b[33m,\u001b[39m\n \u001b[90m 57 |\u001b[39m       })\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\MSI PC\\ui-regression-tests\\tests\\visual\\compareIdeal.spec.ts",
+                            "column": 26,
+                            "line": 54
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mBuffer\u001b[39m\u001b[2m).\u001b[22mtoMatchSnapshot\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\n  Buffers differ\n\n  Snapshot: terms_page.png\n\n\n  52 |       });\n  53 |\n> 54 |       expect(screenshot).toMatchSnapshot(fileName, {\n     |                          ^\n  55 |         maxDiffPixels: 100,\n  56 |         threshold: 0.2,\n  57 |       });\n    at C:\\Users\\MSI PC\\ui-regression-tests\\tests\\visual\\compareIdeal.spec.ts:54:26"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "Navigating to: https://www.tle-eliminators.com/terms-and-conditions\n"
+                        },
+                        {
+                          "text": "Comparing against: terms_page.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-04T10:23:54.110Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "terms-page-expected.png",
+                          "contentType": "application/octet-stream",
+                          "path": "C:\\Users\\MSI PC\\ideal_screenshots\\terms-page"
+                        },
+                        {
+                          "name": "terms-page-actual.png",
+                          "contentType": "application/octet-stream",
+                          "path": "C:\\Users\\MSI PC\\ui-regression-tests\\test-results\\visual-compareIdeal-Pixel--4daa5-Compare-Terms-Page-vs-Ideal-chromium\\terms-page-actual.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\MSI PC\\ui-regression-tests\\test-results\\visual-compareIdeal-Pixel--4daa5-Compare-Terms-Page-vs-Ideal-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\MSI PC\\ui-regression-tests\\tests\\visual\\compareIdeal.spec.ts",
+                        "column": 26,
+                        "line": 54
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "34813b629284199bd84f-1a064fc07a8a3105bb0a",
+              "file": "visual/compareIdeal.spec.ts",
+              "line": 14,
+              "column": 9
+            },
+            {
+              "title": "Compare Privacy Page vs Ideal",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 7,
+                      "parallelIndex": 7,
+                      "status": "failed",
+                      "duration": 18934,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mBuffer\u001b[39m\u001b[2m).\u001b[22mtoMatchSnapshot\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\n  Buffers differ\n\n  Snapshot: privacy_page.png\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mBuffer\u001b[39m\u001b[2m).\u001b[22mtoMatchSnapshot\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\n  Buffers differ\n\n  Snapshot: privacy_page.png\n\n    at C:\\Users\\MSI PC\\ui-regression-tests\\tests\\visual\\compareIdeal.spec.ts:54:26",
+                        "location": {
+                          "file": "C:\\Users\\MSI PC\\ui-regression-tests\\tests\\visual\\compareIdeal.spec.ts",
+                          "column": 26,
+                          "line": 54
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 52 |\u001b[39m       })\u001b[33m;\u001b[39m\n \u001b[90m 53 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 54 |\u001b[39m       expect(screenshot)\u001b[33m.\u001b[39mtoMatchSnapshot(fileName\u001b[33m,\u001b[39m {\n \u001b[90m    |\u001b[39m                          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 55 |\u001b[39m         maxDiffPixels\u001b[33m:\u001b[39m \u001b[35m100\u001b[39m\u001b[33m,\u001b[39m\n \u001b[90m 56 |\u001b[39m         threshold\u001b[33m:\u001b[39m \u001b[35m0.2\u001b[39m\u001b[33m,\u001b[39m\n \u001b[90m 57 |\u001b[39m       })\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\MSI PC\\ui-regression-tests\\tests\\visual\\compareIdeal.spec.ts",
+                            "column": 26,
+                            "line": 54
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mBuffer\u001b[39m\u001b[2m).\u001b[22mtoMatchSnapshot\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\n  Buffers differ\n\n  Snapshot: privacy_page.png\n\n\n  52 |       });\n  53 |\n> 54 |       expect(screenshot).toMatchSnapshot(fileName, {\n     |                          ^\n  55 |         maxDiffPixels: 100,\n  56 |         threshold: 0.2,\n  57 |       });\n    at C:\\Users\\MSI PC\\ui-regression-tests\\tests\\visual\\compareIdeal.spec.ts:54:26"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "Navigating to: https://www.tle-eliminators.com/privacy-policy\n"
+                        },
+                        {
+                          "text": "Comparing against: privacy_page.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-04T10:23:54.114Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "privacy-page-expected.png",
+                          "contentType": "application/octet-stream",
+                          "path": "C:\\Users\\MSI PC\\ideal_screenshots\\privacy-page"
+                        },
+                        {
+                          "name": "privacy-page-actual.png",
+                          "contentType": "application/octet-stream",
+                          "path": "C:\\Users\\MSI PC\\ui-regression-tests\\test-results\\visual-compareIdeal-Pixel--5670c-mpare-Privacy-Page-vs-Ideal-chromium\\privacy-page-actual.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\MSI PC\\ui-regression-tests\\test-results\\visual-compareIdeal-Pixel--5670c-mpare-Privacy-Page-vs-Ideal-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\MSI PC\\ui-regression-tests\\tests\\visual\\compareIdeal.spec.ts",
+                        "column": 26,
+                        "line": 54
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "34813b629284199bd84f-da5f3ed25c77af446717",
+              "file": "visual/compareIdeal.spec.ts",
+              "line": 14,
+              "column": 9
+            },
+            {
+              "title": "Compare Mentors Page vs Ideal",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 33249,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mBuffer\u001b[39m\u001b[2m).\u001b[22mtoMatchSnapshot\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\n  Buffers differ\n\n  Snapshot: mentors_page.png\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mBuffer\u001b[39m\u001b[2m).\u001b[22mtoMatchSnapshot\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\n  Buffers differ\n\n  Snapshot: mentors_page.png\n\n    at C:\\Users\\MSI PC\\ui-regression-tests\\tests\\visual\\compareIdeal.spec.ts:54:26",
+                        "location": {
+                          "file": "C:\\Users\\MSI PC\\ui-regression-tests\\tests\\visual\\compareIdeal.spec.ts",
+                          "column": 26,
+                          "line": 54
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 52 |\u001b[39m       })\u001b[33m;\u001b[39m\n \u001b[90m 53 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 54 |\u001b[39m       expect(screenshot)\u001b[33m.\u001b[39mtoMatchSnapshot(fileName\u001b[33m,\u001b[39m {\n \u001b[90m    |\u001b[39m                          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 55 |\u001b[39m         maxDiffPixels\u001b[33m:\u001b[39m \u001b[35m100\u001b[39m\u001b[33m,\u001b[39m\n \u001b[90m 56 |\u001b[39m         threshold\u001b[33m:\u001b[39m \u001b[35m0.2\u001b[39m\u001b[33m,\u001b[39m\n \u001b[90m 57 |\u001b[39m       })\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\MSI PC\\ui-regression-tests\\tests\\visual\\compareIdeal.spec.ts",
+                            "column": 26,
+                            "line": 54
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mBuffer\u001b[39m\u001b[2m).\u001b[22mtoMatchSnapshot\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\n  Buffers differ\n\n  Snapshot: mentors_page.png\n\n\n  52 |       });\n  53 |\n> 54 |       expect(screenshot).toMatchSnapshot(fileName, {\n     |                          ^\n  55 |         maxDiffPixels: 100,\n  56 |         threshold: 0.2,\n  57 |       });\n    at C:\\Users\\MSI PC\\ui-regression-tests\\tests\\visual\\compareIdeal.spec.ts:54:26"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "Navigating to: https://www.tle-eliminators.com/our-mentors\n"
+                        },
+                        {
+                          "text": "Comparing against: mentors_page.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-04T10:24:07.945Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "mentors-page-expected.png",
+                          "contentType": "application/octet-stream",
+                          "path": "C:\\Users\\MSI PC\\ideal_screenshots\\mentors-page"
+                        },
+                        {
+                          "name": "mentors-page-actual.png",
+                          "contentType": "application/octet-stream",
+                          "path": "C:\\Users\\MSI PC\\ui-regression-tests\\test-results\\visual-compareIdeal-Pixel--e17d3-mpare-Mentors-Page-vs-Ideal-chromium\\mentors-page-actual.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\MSI PC\\ui-regression-tests\\test-results\\visual-compareIdeal-Pixel--e17d3-mpare-Mentors-Page-vs-Ideal-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\MSI PC\\ui-regression-tests\\tests\\visual\\compareIdeal.spec.ts",
+                        "column": 26,
+                        "line": 54
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "34813b629284199bd84f-2ae839f943e6a373a260",
+              "file": "visual/compareIdeal.spec.ts",
+              "line": 14,
+              "column": 9
+            },
+            {
+              "title": "Compare Contact Page vs Ideal",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 9,
+                      "parallelIndex": 1,
+                      "status": "failed",
+                      "duration": 16665,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mBuffer\u001b[39m\u001b[2m).\u001b[22mtoMatchSnapshot\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\n  Buffers differ\n\n  Snapshot: contact_page.png\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mBuffer\u001b[39m\u001b[2m).\u001b[22mtoMatchSnapshot\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\n  Buffers differ\n\n  Snapshot: contact_page.png\n\n    at C:\\Users\\MSI PC\\ui-regression-tests\\tests\\visual\\compareIdeal.spec.ts:54:26",
+                        "location": {
+                          "file": "C:\\Users\\MSI PC\\ui-regression-tests\\tests\\visual\\compareIdeal.spec.ts",
+                          "column": 26,
+                          "line": 54
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 52 |\u001b[39m       })\u001b[33m;\u001b[39m\n \u001b[90m 53 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 54 |\u001b[39m       expect(screenshot)\u001b[33m.\u001b[39mtoMatchSnapshot(fileName\u001b[33m,\u001b[39m {\n \u001b[90m    |\u001b[39m                          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 55 |\u001b[39m         maxDiffPixels\u001b[33m:\u001b[39m \u001b[35m100\u001b[39m\u001b[33m,\u001b[39m\n \u001b[90m 56 |\u001b[39m         threshold\u001b[33m:\u001b[39m \u001b[35m0.2\u001b[39m\u001b[33m,\u001b[39m\n \u001b[90m 57 |\u001b[39m       })\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\MSI PC\\ui-regression-tests\\tests\\visual\\compareIdeal.spec.ts",
+                            "column": 26,
+                            "line": 54
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mBuffer\u001b[39m\u001b[2m).\u001b[22mtoMatchSnapshot\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\n  Buffers differ\n\n  Snapshot: contact_page.png\n\n\n  52 |       });\n  53 |\n> 54 |       expect(screenshot).toMatchSnapshot(fileName, {\n     |                          ^\n  55 |         maxDiffPixels: 100,\n  56 |         threshold: 0.2,\n  57 |       });\n    at C:\\Users\\MSI PC\\ui-regression-tests\\tests\\visual\\compareIdeal.spec.ts:54:26"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "Navigating to: https://www.tle-eliminators.com/contact-us\n"
+                        },
+                        {
+                          "text": "Comparing against: contact_page.png\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-04T10:24:11.680Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "contact-page-expected.png",
+                          "contentType": "application/octet-stream",
+                          "path": "C:\\Users\\MSI PC\\ideal_screenshots\\contact-page"
+                        },
+                        {
+                          "name": "contact-page-actual.png",
+                          "contentType": "application/octet-stream",
+                          "path": "C:\\Users\\MSI PC\\ui-regression-tests\\test-results\\visual-compareIdeal-Pixel--3b27f-mpare-Contact-Page-vs-Ideal-chromium\\contact-page-actual.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\MSI PC\\ui-regression-tests\\test-results\\visual-compareIdeal-Pixel--3b27f-mpare-Contact-Page-vs-Ideal-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\MSI PC\\ui-regression-tests\\tests\\visual\\compareIdeal.spec.ts",
+                        "column": 26,
+                        "line": 54
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "34813b629284199bd84f-c17db0229527018a4677",
+              "file": "visual/compareIdeal.spec.ts",
+              "line": 14,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-01-04T10:23:53.005Z",
+    "duration": 49859.536,
+    "expected": 0,
+    "skipped": 0,
+    "unexpected": 10,
+    "flaky": 0
+  }
+}

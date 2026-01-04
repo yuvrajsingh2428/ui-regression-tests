@@ -11,6 +11,28 @@ import { Logger } from './logger';
 export class VisualHelper {
 
     /**
+     * Helper to scroll the full page to trigger lazy loading
+     */
+    static async scrollFullPage(page: Page) {
+        await page.evaluate(async () => {
+            await new Promise((resolve) => {
+                let totalHeight = 0;
+                const distance = 100;
+                const timer = setInterval(() => {
+                    const scrollHeight = document.body.scrollHeight;
+                    window.scrollBy(0, distance);
+                    totalHeight += distance;
+                    if (totalHeight >= scrollHeight) {
+                        clearInterval(timer);
+                        resolve(null);
+                    }
+                }, 100);
+            });
+            window.scrollTo(0, 0);
+        });
+    }
+
+    /**
      * Validates page health and performs visual regression test.
      */
     static async validatePageVisuals(page: Page, pageDef: PageDefinition) {
