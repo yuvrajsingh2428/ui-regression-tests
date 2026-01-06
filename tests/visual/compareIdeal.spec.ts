@@ -57,10 +57,18 @@ test.describe('Pixel-Perfect Comparison against Ideal Baselines', () => {
         maskColor: '#FF00FF',
       });
 
-      expect(screenshot).toMatchSnapshot(fileName, {
-        maxDiffPixels: 300,
-        threshold: 0.3,
-      });
+      try {
+        expect(screenshot).toMatchSnapshot(fileName, {
+          maxDiffPixels: 300,
+          threshold: 0.3,
+        });
+      } catch (error) {
+        console.error(`❌ Visual Comparison Failed for ${pageDef.name}`);
+        console.error(`   - Expected: ideal_screenshots/${fileName}`);
+        console.error(`   - Actual: test-results/.../${fileName.replace('.png', '-actual.png')}`);
+        console.error(`   - Diff: test-results/.../${fileName.replace('.png', '-diff.png')}`);
+        throw error;
+      }
     });
   }
 });

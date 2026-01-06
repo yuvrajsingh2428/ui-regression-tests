@@ -1,0 +1,98 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - banner [ref=e5]:
+    - link "Logo TLE Eliminators" [ref=e6] [cursor=pointer]:
+      - /url: /
+      - generic [ref=e7]:
+        - img "Logo" [ref=e8]
+        - generic [ref=e9]: TLE Eliminators
+    - generic [ref=e10]:
+      - link "Home" [ref=e11] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e12]: Home
+      - link "CP Digest" [ref=e13] [cursor=pointer]:
+        - /url: /cp-digest/*
+        - generic [ref=e14]: CP Digest
+      - link "Contest Tracker" [ref=e15] [cursor=pointer]:
+        - /url: /contest-tracker
+        - generic [ref=e16]: Contest Tracker
+      - link "CP-31 Sheet" [ref=e17] [cursor=pointer]:
+        - /url: /cp-sheet
+        - generic [ref=e18]: CP-31 Sheet
+      - link "Courses" [ref=e19] [cursor=pointer]:
+        - /url: /courses
+        - generic [ref=e20]: Courses
+    - generic [ref=e21]:
+      - button "Switch to Dark Mode" [ref=e22] [cursor=pointer]:
+        - img "Switch to Dark Mode" [ref=e23]
+      - button "Login / Register" [ref=e24] [cursor=pointer]
+  - generic [ref=e26]: Privacy Policy
+  - list [ref=e29]:
+    - listitem [ref=e30]: "General:"
+    - paragraph [ref=e31]: In this policy, the words "we", "our", and "us" refer to Codelift Academy Private Limited(TLE Eliminators) and the words "you", "your" refers to user/professional the privacy mechanism outlined identify personally identifiable or personal information that may be collected, how such information is used, and the choices You have regarding our use of this information.
+    - paragraph [ref=e32]: In addition to the terms stated in Terms and Conditions provided under this Website/mobile application (together "Platform"), we are committed to protecting your privacy. Only authorized representatives of Codelift Academy Private Limited(TLE Eliminators) and on a need to know basis only can use any information received from you and as consented by you. We constantly review our systems and data to secure your personal information. In the event of any identified unauthorized use or disclosure of information or upon your complaint, we will investigate any such complaint or such actions with a view to prosecuting and/or taking civil proceedings to recover damages against those responsible. In case if you do not agree with any provision of this Privacy Policy and the Terms and Conditions then you are required to leave/not join the Codelift Academy Private Limited(TLE Eliminators) Platform immediately. In case if you disagree with this Policy (defined below) and still continue to access the Platform and provide your personal information, TLE Eliminators shall disclaim all the liabilities arising therefrom and it shall be assumed by your continued use of the Platform that you have accepted the Policy and any other online terms and conditions available on the Platform.
+    - paragraph [ref=e33]: If any information you have provided or presented on the Platform violates the terms of this Policy, TLE Eliminators may be required to delete such information upon informing you of the same and revoke your access if required without incurring any liability to you.
+    - listitem [ref=e34]: "Applicability:"
+    - paragraph [ref=e35]: This privacy policy ('Policy') applies to all Users/Professionals who access the Platform and are therefore required to read and understand the Policy before submitting any Personal Information (defined hereinafter). By submitting Personal Information, you are consenting to the use and processing of such information in accordance with this Policy. If You have inadvertently submitted any Personal Information to TLE Eliminators prior to reading the Policy statements set out herein, or you do not agree with the manner in which the Personal Information is collected, stored or used, then you may access, modify and delete all information stored about you by writing to us at support@tle-eliminators.com. TLE Eliminators shall retain the personal data of the User/Professional, and every User/Professional is also entitled to require TLE Eliminators to delete and destroy all such information (but not that of other Users).
+    - paragraph [ref=e36]: This Policy applies to the Platform and any other services that are owned and operated by TLE Eliminators alone. Third-party websites may place their own cookies or other files on the User/Professional's computer, collect data or solicit personal information from the Users, for which TLE Eliminators is not responsible or liable. Accordingly, TLE Eliminators does not make any representations concerning the privacy practices or policies of such third parties or terms of use of such websites, nor does TLE Eliminators guarantee the accuracy, integrity, or quality of the information, data, text, software, sound, photographs, graphics, videos, messages, or other materials available on such websites. The inclusion or exclusion does not imply any endorsement by TLE Eliminators of the website, the website's provider, or the information on the website. TLE Eliminators encourages the User/Professional to read the privacy policies of each such website and you should understand that it's solely such third party who is responsible for such cases in this regard.
+    - paragraph [ref=e37]: TLE Eliminators has taken reasonable precautions as per applicable Indian law and implemented industry standards to treat Personal Information as confidential and to protect it from unauthorized access, improper use or disclosure, modification and unlawful destruction or accidental loss of the Personal Information.
+    - listitem [ref=e38]: "Personal Information:"
+    - paragraph [ref=e39]: "'Personal Information' shall mean the information which identifies the User /Professional, name, identification number, email address, age, gender, or phone number provided to TLE Eliminators at the time of registration or any time thereafter. Personal information may include 'sensitive personal information or data' as defined under the Information Technology (Reasonable Security Practices and Procedures and Sensitive Personal Data or Information) Rules, 2011 and in this context, includes passwords or any financial account information provided by you during registration."
+    - paragraph [ref=e40]: We request you to not provide us with any Personal Information unless specifically requested by us. In such events, we bear no liability to such Personal Information provided by you.
+    - listitem [ref=e41]: "Automatic Information Collection:"
+    - paragraph [ref=e42]: Our system collects information that is sent over the Internet without your control. Some examples of the information we collect and analyze include the internet protocol (IP) address used to connect your computer to the internet, login, email, password, computer and connection information such as browser type and version, operating system and platform course enrolled history, which we sometimes aggregate with similar information from other users to create features, reports such as popular courses, most used features etc. the full Uniform Resource Locator (URL) clickstream to, and from our Platform, including date and time, cookie number, courses or videos you viewed or searched for the email ID you used to connect to our customer service etc.
+    - listitem [ref=e43]: "Information Security:"
+    - list [ref=e44]:
+      - listitem [ref=e45]: To protect the security of your Personal infoarmation during transmission, we use software, which encrypts information you input. To prevent unauthorized access to sensitive information, it is important for You to monitor those who have access to Your password and to Your computer, laptop or any other device through which Your account can be accessed.
+      - listitem [ref=e46]: To protect the security of your Personal infoarmation during transmission, However, please do note that given the nature of internet transactions, TLE Eliminators does not take any responsibility for the transmission of information including Personal Information shared by you other than as set forth in this Policy. Any transmission of information on the internet is done at your risk and shall not be responsible for the circumvention of the privacy settings or security measures either by you or any third-party.
+    - listitem [ref=e47]: "Use of Personal Information:"
+    - paragraph [ref=e48]: "We collect following through In-App disclosure (aka Android Permission) of the User/Professional:"
+    - list [ref=e49]:
+      - listitem [ref=e50]: Storage
+      - listitem [ref=e51]: Location
+      - listitem [ref=e52]: Contacts
+      - listitem [ref=e53]: Camera
+      - listitem [ref=e54]: Microphone
+    - paragraph [ref=e55]: When you connect to our application, along with personal data we take non-personal data about yourself like the Android Model, Version browser, resolution of your mobile phone, IMEI, Language, network/wifi connectivity.
+    - listitem [ref=e56]: "Revision of terms & Grievance reporting:"
+    - paragraph [ref=e57]: TLE Eliminators may update or amend this Policy at any time, with or without advance notice. In the event there are significant changes in the way TLE Eliminators treats User/Professional's personally identifiable information, TLE Eliminators will display a notice on the Platform or send User/Professional an email. TLE Eliminators's current Policy to all information that TLE Eliminators has about User/Professional and their account.
+    - paragraph [ref=e58]: Notwithstanding the above, TLE Eliminators shall not be required to notify the User/Professional of any changes made to the privacy policy. In case you have any concerns or reject the changes in the privacy policy, you can refuse to accept the amendments and opt for withdrawing your Personal Information by writing to us at support@tle-eliminators.com.
+  - generic [ref=e59]:
+    - generic [ref=e61]:
+      - generic [ref=e62]:
+        - generic [ref=e63]: Courses
+        - generic [ref=e64]:
+          - generic [ref=e65] [cursor=pointer]: Level 1
+          - generic [ref=e66] [cursor=pointer]: Level 2
+          - generic [ref=e67] [cursor=pointer]: Level 3
+          - generic [ref=e68] [cursor=pointer]: Level 4
+      - generic [ref=e69]:
+        - generic [ref=e70]: Information
+        - generic [ref=e71]:
+          - generic [ref=e72] [cursor=pointer]: Course FAQs
+          - generic [ref=e73] [cursor=pointer]: Terms & Conditions
+          - generic [ref=e74] [cursor=pointer]: Privacy Policy
+      - generic [ref=e75]:
+        - generic [ref=e76]: Company
+        - generic [ref=e77]:
+          - generic [ref=e78] [cursor=pointer]: Our Mentors
+          - generic [ref=e79] [cursor=pointer]: Contact Us
+          - generic [ref=e80] [cursor=pointer]: Report Bug
+      - generic [ref=e81]:
+        - generic [ref=e82]: Socials
+        - generic [ref=e83]:
+          - generic [ref=e84] [cursor=pointer]: Whatsapp
+          - generic [ref=e85] [cursor=pointer]: Discord
+          - generic [ref=e86] [cursor=pointer]: LinkedIn
+          - generic [ref=e87] [cursor=pointer]: Instagram
+          - generic [ref=e88] [cursor=pointer]: Twitter
+          - generic [ref=e89] [cursor=pointer]: Youtube
+    - generic [ref=e91] [cursor=pointer]:
+      - generic [ref=e92]:
+        - img "logo" [ref=e93]
+        - generic [ref=e94]: Codelift Academy Private Limited
+      - generic [ref=e95]: "|"
+      - generic [ref=e96]: All rights reserved.
+```

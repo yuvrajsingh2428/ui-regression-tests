@@ -1,0 +1,286 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - banner [ref=e5]:
+    - link "Logo TLE Eliminators" [ref=e6] [cursor=pointer]:
+      - /url: /
+      - generic [ref=e7]:
+        - img "Logo" [ref=e8]
+        - generic [ref=e9]: TLE Eliminators
+    - generic [ref=e10]:
+      - link "Home" [ref=e11] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e12]: Home
+      - link "CP Digest" [ref=e13] [cursor=pointer]:
+        - /url: /cp-digest/*
+        - generic [ref=e14]: CP Digest
+      - link "Contest Tracker" [ref=e15] [cursor=pointer]:
+        - /url: /contest-tracker
+        - generic [ref=e16]: Contest Tracker
+      - link "CP-31 Sheet" [ref=e17] [cursor=pointer]:
+        - /url: /cp-sheet
+        - generic [ref=e18]: CP-31 Sheet
+      - link "Courses" [ref=e19] [cursor=pointer]:
+        - /url: /courses
+        - generic [ref=e20]: Courses
+    - generic [ref=e21]:
+      - button "Switch to Dark Mode" [ref=e22] [cursor=pointer]:
+        - img "Switch to Dark Mode" [ref=e23]
+      - button "Login / Register" [ref=e24] [cursor=pointer]
+  - generic [ref=e26] [cursor=pointer]:
+    - heading "Self-Paced CP Courses" [level=1] [ref=e27]
+    - button "Check Out" [ref=e29]
+  - generic [ref=e30]:
+    - generic [ref=e31]: Our Mentors
+    - generic [ref=e33]:
+      - text: With most TLE Mentors holding
+      - generic [ref=e34]: Expert
+      - text: or
+      - generic [ref=e35]: Candidate Master
+      - text: ranks on Codeforces, we ensure that none of your coding doubts go unresolved.
+    - generic [ref=e36]:
+      - button "Current Mentors (17)" [ref=e37] [cursor=pointer]
+      - button "Past Mentors" [ref=e38] [cursor=pointer]
+    - generic [ref=e40]:
+      - generic [ref=e41]:
+        - img "TLE Mentor - Abhinav Kumar" [ref=e43]
+        - generic [ref=e44]:
+          - generic [ref=e45]: Abhinav Kumar
+          - generic [ref=e46]: IIT ISM Dhanbad
+        - list [ref=e47]:
+          - listitem [ref=e48]: Master @Codeforces(2151)
+          - listitem [ref=e49]: Rank 10 in ICPC Preliminary 2024-25
+          - listitem [ref=e50]: 2x under 2k Rank in Meta HackerCup
+        - generic [ref=e51]:
+          - img "Mentors Linked profile" [ref=e53] [cursor=pointer]
+          - img "Mentors Codeforces profile" [ref=e55] [cursor=pointer]
+      - generic [ref=e56]:
+        - img "TLE Mentor - Leela Sai Obbareddy" [ref=e58]
+        - generic [ref=e59]:
+          - generic [ref=e60]: Leela Sai Obbareddy
+          - generic [ref=e61]: IIT ISM Dhanbad
+        - list [ref=e62]:
+          - listitem [ref=e63]: Master @Codeforces(2131)
+          - listitem [ref=e64]: Guardian @Leetcode
+          - listitem [ref=e65]: Won CodeSprint '24 by GFG
+        - generic [ref=e66]:
+          - img "Mentors Linked profile" [ref=e68] [cursor=pointer]
+          - img "Mentors Codeforces profile" [ref=e70] [cursor=pointer]
+      - generic [ref=e71]:
+        - img "TLE Mentor - Naman Kumar" [ref=e73]
+        - generic [ref=e74]:
+          - generic [ref=e75]: Naman Kumar
+          - generic [ref=e76]: IIT ISM Dhanbad
+        - list [ref=e77]:
+          - listitem [ref=e78]: Master @Codeforces(2129)
+          - listitem [ref=e79]: AIR 4 in IICPC 2025 Finals
+          - listitem [ref=e80]: Global Rank 73 in CF Round 981
+        - generic [ref=e81]:
+          - img "Mentors Linked profile" [ref=e83] [cursor=pointer]
+          - img "Mentors Codeforces profile" [ref=e85] [cursor=pointer]
+      - generic [ref=e86]:
+        - img "TLE Mentor - Pradyumn Kejriwal" [ref=e88]
+        - generic [ref=e89]:
+          - generic [ref=e90]: Pradyumn Kejriwal
+          - generic [ref=e91]: IIT Roorkee
+        - list [ref=e92]:
+          - listitem [ref=e93]: Master @Codeforces(2127)
+          - listitem [ref=e94]: ICPC Asia West Finalist 2025
+          - listitem [ref=e95]: IICPC 2024 Winner
+        - generic [ref=e96]:
+          - img "Mentors Linked profile" [ref=e98] [cursor=pointer]
+          - img "Mentors Codeforces profile" [ref=e100] [cursor=pointer]
+      - generic [ref=e101]:
+        - img "TLE Mentor - Suvrat Mehta" [ref=e103]
+        - generic [ref=e104]:
+          - generic [ref=e105]: Suvrat Mehta
+          - generic [ref=e106]: IIT Roorkee
+        - list [ref=e107]:
+          - listitem [ref=e108]: Candidate master @Codeforces(1972)
+          - listitem [ref=e109]: 5 Star @Codechef
+          - listitem [ref=e110]: Codefest'25 Regionalist
+        - generic [ref=e111]:
+          - img "Mentors Linked profile" [ref=e113] [cursor=pointer]
+          - img "Mentors Codeforces profile" [ref=e115] [cursor=pointer]
+      - generic [ref=e116]:
+        - img "TLE Mentor - Vibhaas Srivastava" [ref=e118]
+        - generic [ref=e119]:
+          - generic [ref=e120]: Vibhaas Srivastava
+          - generic [ref=e121]: IIIT Kottayam
+        - list [ref=e122]:
+          - listitem [ref=e123]: Candidate master @Codeforces(1967)
+          - listitem [ref=e124]: Rank 50 in ICPC Amrita Regionals 2024
+          - listitem [ref=e125]: Rank 47 in ICPC Kanpur Regionals 2024
+        - generic [ref=e126]:
+          - img "Mentors Linked profile" [ref=e128] [cursor=pointer]
+          - img "Mentors Codeforces profile" [ref=e130] [cursor=pointer]
+      - generic [ref=e131]:
+        - img "TLE Mentor - Soumojit Chatterjee" [ref=e133]
+        - generic [ref=e134]:
+          - generic [ref=e135]: Soumojit Chatterjee
+          - generic [ref=e136]: IIT Kharagpur
+        - list [ref=e137]:
+          - listitem [ref=e138]: Candidate master @Codeforces(1939)
+          - listitem [ref=e139]: AIR 8 in Overnite @IITKGP
+          - listitem [ref=e140]: 6 Star @CodeChef
+        - generic [ref=e141]:
+          - img "Mentors Linked profile" [ref=e143] [cursor=pointer]
+          - img "Mentors Codeforces profile" [ref=e145] [cursor=pointer]
+      - generic [ref=e146]:
+        - img "TLE Mentor - Kalpit Sancheti" [ref=e148]
+        - generic [ref=e149]:
+          - generic [ref=e150]: Kalpit Sancheti
+          - generic [ref=e151]: Netaji Subhas University Of Technology
+        - list [ref=e152]:
+          - listitem [ref=e153]: Expert @Codeforces(1876)
+          - listitem [ref=e154]: 5 Star @CodeChef
+          - listitem [ref=e155]: Guardian @Leetcode
+        - generic [ref=e156]:
+          - img "Mentors Linked profile" [ref=e158] [cursor=pointer]
+          - img "Mentors Codeforces profile" [ref=e160] [cursor=pointer]
+      - generic [ref=e161]:
+        - img "TLE Mentor - Harsh Raj" [ref=e163]
+        - generic [ref=e164]:
+          - generic [ref=e165]: Harsh Raj
+          - generic [ref=e166]: IIT Patna
+        - list [ref=e167]:
+          - listitem [ref=e168]: Expert @Codeforces(1836)
+          - listitem [ref=e169]: 2x Global Rank under 500 in CF Div2
+          - listitem [ref=e170]: Rank 49 in IICPC Prelims
+        - generic [ref=e171]:
+          - img "Mentors Linked profile" [ref=e173] [cursor=pointer]
+          - img "Mentors Codeforces profile" [ref=e175] [cursor=pointer]
+      - generic [ref=e176]:
+        - img "TLE Mentor - Harsh Gupta" [ref=e178]
+        - generic [ref=e179]:
+          - generic [ref=e180]: Harsh Gupta
+          - generic [ref=e181]: Jadavpur University
+        - list [ref=e182]:
+          - listitem [ref=e183]: Expert @Codeforces(1819)
+          - listitem [ref=e184]: 6 Star @CodeChef
+          - listitem [ref=e185]: ICPC Regionalist 2024-25
+        - generic [ref=e186]:
+          - img "Mentors Linked profile" [ref=e188] [cursor=pointer]
+          - img "Mentors Codeforces profile" [ref=e190] [cursor=pointer]
+      - generic [ref=e191]:
+        - img "TLE Mentor - Viraj Chandra" [ref=e193]
+        - generic [ref=e194]:
+          - generic [ref=e195]: Viraj Chandra
+          - generic [ref=e196]: NIT Raipur
+        - list [ref=e197]:
+          - listitem [ref=e198]: Expert @Codeforces(1740)
+          - listitem [ref=e199]: ICPC'23 Regionalist
+          - listitem [ref=e200]: Google SWE Intern
+        - generic [ref=e201]:
+          - img "Mentors Linked profile" [ref=e203] [cursor=pointer]
+          - img "Mentors Codeforces profile" [ref=e205] [cursor=pointer]
+      - generic [ref=e206]:
+        - img "TLE Mentor - Krishankant Sharma" [ref=e208]
+        - generic [ref=e209]:
+          - generic [ref=e210]: Krishankant Sharma
+          - generic [ref=e211]: Netaji Subhas University of Technology
+        - list [ref=e212]:
+          - listitem [ref=e213]: Expert @Codeforces(1725)
+          - listitem [ref=e214]: Knight @Leetcode
+          - listitem [ref=e215]: 4 Star @CodeChef
+        - generic [ref=e216]:
+          - img "Mentors Linked profile" [ref=e218] [cursor=pointer]
+          - img "Mentors Codeforces profile" [ref=e220] [cursor=pointer]
+      - generic [ref=e221]:
+        - img "TLE Mentor - Molik Tyagi" [ref=e223]
+        - generic [ref=e224]:
+          - generic [ref=e225]: Molik Tyagi
+          - generic [ref=e226]: IIT Mandi
+        - list [ref=e227]:
+          - listitem [ref=e228]: Expert @Codeforces(1720)
+          - listitem [ref=e229]: Qualified Meta HackerCup Round 2
+          - listitem [ref=e230]: Conducted a Coding Contest at IIT Mandi's TechFest
+        - generic [ref=e231]:
+          - img "Mentors Linked profile" [ref=e233] [cursor=pointer]
+          - img "Mentors Codeforces profile" [ref=e235] [cursor=pointer]
+      - generic [ref=e236]:
+        - img "TLE Mentor - Anirudh Bharatiya" [ref=e238]
+        - generic [ref=e239]:
+          - generic [ref=e240]: Anirudh Bharatiya
+          - generic [ref=e241]: IIIT Delhi
+        - list [ref=e242]:
+          - listitem [ref=e243]: Expert @Codeforces(1714)
+          - listitem [ref=e244]: ICPC Amritapuri & Chennai Regionalist 2024-25
+        - generic [ref=e245]:
+          - img "Mentors Linked profile" [ref=e247] [cursor=pointer]
+          - img "Mentors Codeforces profile" [ref=e249] [cursor=pointer]
+      - generic [ref=e250]:
+        - img "TLE Mentor - Sandeep Yadav" [ref=e252]
+        - generic [ref=e253]:
+          - generic [ref=e254]: Sandeep Yadav
+          - generic [ref=e255]: Army Institute of Technology Pune
+        - list [ref=e256]:
+          - listitem [ref=e257]: Expert @Codeforces(1666)
+          - listitem [ref=e258]: Rank 7 in CodeUncode'25 Finals
+          - listitem [ref=e259]: Rank 1 in Pradnya'25, by PICT Pune
+        - generic [ref=e260]:
+          - img "Mentors Linked profile" [ref=e262] [cursor=pointer]
+          - img "Mentors Codeforces profile" [ref=e264] [cursor=pointer]
+      - generic [ref=e265]:
+        - img "TLE Mentor - Sourav Kushwaha" [ref=e267]
+        - generic [ref=e268]:
+          - generic [ref=e269]: Sourav Kushwaha
+          - generic [ref=e270]: Army Institute of Technology Pune
+        - list [ref=e271]:
+          - listitem [ref=e272]: Expert @Codeforces(1652)
+          - listitem [ref=e273]: Rank 6 in CodeUncode'25 Regionals
+          - listitem [ref=e274]: Global Rank 185 in CF Round 981 Div3
+        - generic [ref=e275]:
+          - img "Mentors Linked profile" [ref=e277] [cursor=pointer]
+          - img "Mentors Codeforces profile" [ref=e279] [cursor=pointer]
+      - generic [ref=e280]:
+        - img "TLE Mentor - Ayush Agrawal" [ref=e282]
+        - generic [ref=e283]:
+          - generic [ref=e284]: Ayush Agrawal
+          - generic [ref=e285]: NIT Jamshedpur
+        - list [ref=e286]:
+          - listitem [ref=e287]: Expert @Codeforces(1639)
+          - listitem [ref=e288]: Rank 1 in Vishwa Code Mania, OJASS
+          - listitem [ref=e289]: Rank 2 in SECE CP Contest
+        - generic [ref=e290]:
+          - img "Mentors Linked profile" [ref=e292] [cursor=pointer]
+          - img "Mentors Codeforces profile" [ref=e294] [cursor=pointer]
+    - generic [ref=e295] [cursor=pointer]: ✨ Join as a Mentor
+  - generic [ref=e296]:
+    - generic [ref=e298]:
+      - generic [ref=e299]:
+        - generic [ref=e300]: Courses
+        - generic [ref=e301]:
+          - generic [ref=e302] [cursor=pointer]: Level 1
+          - generic [ref=e303] [cursor=pointer]: Level 2
+          - generic [ref=e304] [cursor=pointer]: Level 3
+          - generic [ref=e305] [cursor=pointer]: Level 4
+      - generic [ref=e306]:
+        - generic [ref=e307]: Information
+        - generic [ref=e308]:
+          - generic [ref=e309] [cursor=pointer]: Course FAQs
+          - generic [ref=e310] [cursor=pointer]: Terms & Conditions
+          - generic [ref=e311] [cursor=pointer]: Privacy Policy
+      - generic [ref=e312]:
+        - generic [ref=e313]: Company
+        - generic [ref=e314]:
+          - generic [ref=e315] [cursor=pointer]: Our Mentors
+          - generic [ref=e316] [cursor=pointer]: Contact Us
+          - generic [ref=e317] [cursor=pointer]: Report Bug
+      - generic [ref=e318]:
+        - generic [ref=e319]: Socials
+        - generic [ref=e320]:
+          - generic [ref=e321] [cursor=pointer]: Whatsapp
+          - generic [ref=e322] [cursor=pointer]: Discord
+          - generic [ref=e323] [cursor=pointer]: LinkedIn
+          - generic [ref=e324] [cursor=pointer]: Instagram
+          - generic [ref=e325] [cursor=pointer]: Twitter
+          - generic [ref=e326] [cursor=pointer]: Youtube
+    - generic [ref=e328] [cursor=pointer]:
+      - generic [ref=e329]:
+        - img "logo" [ref=e330]
+        - generic [ref=e331]: Codelift Academy Private Limited
+      - generic [ref=e332]: "|"
+      - generic [ref=e333]: All rights reserved.
+```

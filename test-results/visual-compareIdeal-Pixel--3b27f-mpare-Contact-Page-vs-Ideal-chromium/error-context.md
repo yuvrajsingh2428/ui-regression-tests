@@ -1,0 +1,121 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e4]:
+  - banner [ref=e6]:
+    - link "Logo TLE Eliminators" [ref=e7] [cursor=pointer]:
+      - /url: /
+      - generic [ref=e8]:
+        - img "Logo" [ref=e9]
+        - generic [ref=e10]: TLE Eliminators
+    - generic [ref=e11]:
+      - link "Home" [ref=e12] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e13]: Home
+      - link "CP Digest" [ref=e14] [cursor=pointer]:
+        - /url: /cp-digest/*
+        - generic [ref=e15]: CP Digest
+      - link "Contest Tracker" [ref=e16] [cursor=pointer]:
+        - /url: /contest-tracker
+        - generic [ref=e17]: Contest Tracker
+      - link "CP-31 Sheet" [ref=e18] [cursor=pointer]:
+        - /url: /cp-sheet
+        - generic [ref=e19]: CP-31 Sheet
+      - link "Courses" [ref=e20] [cursor=pointer]:
+        - /url: /courses
+        - generic [ref=e21]: Courses
+    - generic [ref=e22]:
+      - button "Switch to Dark Mode" [ref=e23] [cursor=pointer]:
+        - img "Switch to Dark Mode" [ref=e24]
+      - button "Login / Register" [ref=e25] [cursor=pointer]
+  - generic [ref=e27]:
+    - heading "Contact Us" [level=1] [ref=e28]
+    - generic [ref=e29]:
+      - generic [ref=e32]:
+        - generic [ref=e33]:
+          - img [ref=e35]
+          - generic [ref=e37]:
+            - generic [ref=e38]: Course Related Queries
+            - generic [ref=e39]: Have any doubts about our courses?
+            - link "WhatsApp Us" [ref=e41] [cursor=pointer]:
+              - /url: https://api.whatsapp.com/send?phone=919286466485&text=Hi%20TLE%20Team!
+              - button "WhatsApp Us" [ref=e42]
+        - generic [ref=e43]:
+          - img [ref=e45]
+          - generic [ref=e47]:
+            - generic [ref=e48]: Bug Report & Feedback
+            - generic [ref=e49]: Found a bug on the website, have a feature request or feedback for us?
+            - link "Report a Bug" [ref=e51] [cursor=pointer]:
+              - /url: https://forms.gle/HvdNTM4XtTX4ChJ6A
+              - button "Report a Bug" [ref=e52]
+        - generic [ref=e53]:
+          - img [ref=e55]
+          - generic [ref=e57]:
+            - generic [ref=e58]: Collaboration & Partnerships
+            - generic [ref=e59]: Want to partner with us, have collaboration or sponsorship requests?
+            - link "workwithpriyansh@tle-eliminators.com" [ref=e61] [cursor=pointer]:
+              - /url: mailto:workwithpriyansh@tle-eliminators.com
+        - generic [ref=e62]:
+          - img [ref=e64]
+          - generic [ref=e66]:
+            - generic [ref=e67]: For All Other Queries
+            - generic [ref=e68]: Fill out the Contact Us form.
+      - generic [ref=e72]:
+        - generic [ref=e73]:
+          - generic [ref=e74]: Full Name *
+          - textbox "Full Name *" [ref=e77]:
+            - /placeholder: Enter your full name
+        - generic [ref=e78]:
+          - generic [ref=e79]: Email Address *
+          - textbox "Email Address *" [ref=e82]:
+            - /placeholder: Enter your email address
+        - generic [ref=e83]:
+          - generic [ref=e84]: Phone Number *
+          - textbox "Phone Number *" [ref=e87]:
+            - /placeholder: Enter your whatsapp number
+        - generic [ref=e88]:
+          - generic [ref=e89]: Subject *
+          - textbox "Subject *" [ref=e92]:
+            - /placeholder: What's your query about?
+        - generic [ref=e93]:
+          - generic [ref=e94]: Message *
+          - textbox "Message *" [ref=e96]:
+            - /placeholder: Please describe your query in detail. The more information you provide, the better we can assist you...
+        - button "Send Message" [ref=e98] [cursor=pointer]
+  - generic [ref=e99]:
+    - generic [ref=e101]:
+      - generic [ref=e102]:
+        - generic [ref=e103]: Courses
+        - generic [ref=e104]:
+          - generic [ref=e105] [cursor=pointer]: Level 1
+          - generic [ref=e106] [cursor=pointer]: Level 2
+          - generic [ref=e107] [cursor=pointer]: Level 3
+          - generic [ref=e108] [cursor=pointer]: Level 4
+      - generic [ref=e109]:
+        - generic [ref=e110]: Information
+        - generic [ref=e111]:
+          - generic [ref=e112] [cursor=pointer]: Course FAQs
+          - generic [ref=e113] [cursor=pointer]: Terms & Conditions
+          - generic [ref=e114] [cursor=pointer]: Privacy Policy
+      - generic [ref=e115]:
+        - generic [ref=e116]: Company
+        - generic [ref=e117]:
+          - generic [ref=e118] [cursor=pointer]: Our Mentors
+          - generic [ref=e119] [cursor=pointer]: Contact Us
+          - generic [ref=e120] [cursor=pointer]: Report Bug
+      - generic [ref=e121]:
+        - generic [ref=e122]: Socials
+        - generic [ref=e123]:
+          - generic [ref=e124] [cursor=pointer]: Whatsapp
+          - generic [ref=e125] [cursor=pointer]: Discord
+          - generic [ref=e126] [cursor=pointer]: LinkedIn
+          - generic [ref=e127] [cursor=pointer]: Instagram
+          - generic [ref=e128] [cursor=pointer]: Twitter
+          - generic [ref=e129] [cursor=pointer]: Youtube
+    - generic [ref=e131] [cursor=pointer]:
+      - generic [ref=e132]:
+        - img "logo" [ref=e133]
+        - generic [ref=e134]: Codelift Academy Private Limited
+      - generic [ref=e135]: "|"
+      - generic [ref=e136]: All rights reserved.
+```

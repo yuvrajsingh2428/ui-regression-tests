@@ -1,0 +1,160 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - banner [ref=e5]:
+    - link "Logo TLE Eliminators" [ref=e6] [cursor=pointer]:
+      - /url: /
+      - generic [ref=e7]:
+        - img "Logo" [ref=e8]
+        - generic [ref=e9]: TLE Eliminators
+    - generic [ref=e10]:
+      - link "Home" [ref=e11] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e12]: Home
+      - link "CP Digest" [ref=e13] [cursor=pointer]:
+        - /url: /cp-digest/*
+        - generic [ref=e14]: CP Digest
+      - link "Contest Tracker" [ref=e15] [cursor=pointer]:
+        - /url: /contest-tracker
+        - generic [ref=e16]: Contest Tracker
+      - link "CP-31 Sheet" [ref=e17] [cursor=pointer]:
+        - /url: /cp-sheet
+        - generic [ref=e18]: CP-31 Sheet
+      - link "Courses" [ref=e19] [cursor=pointer]:
+        - /url: /courses
+        - generic [ref=e20]: Courses
+    - generic [ref=e21]:
+      - button "Switch to Dark Mode" [ref=e22] [cursor=pointer]:
+        - img "Switch to Dark Mode" [ref=e23]
+      - button "Login / Register" [ref=e24] [cursor=pointer]
+  - generic [ref=e25]: Terms & Conditions
+  - generic [ref=e27]:
+    - paragraph [ref=e28]:
+      - text: "NOTE: THE AGREEMENT SHOULD BE CAREFULLY READ AS IT CONTAINS THE IMPORTANT INFORMATION REGARDING THE LEGAL RIGHTS, REMEDIES AND OBLIGATIONS OF THE USER."
+      - text: THESE INCLUDE A DISPUTE RESOLUTION CLAUSE THAT GOVERNS HOW DISPUTES WILL BE RESOLVED, AS WELL AS A NUMBER OF LIMITATIONS AND EXCLUSIONS.
+    - paragraph [ref=e29]: Welcome to the Terms and Conditions of Codelift Academy Private Limited (TLE Eliminators).All the services offered by Codelift Academy Private Limited (“TLE Eliminators”, “we” or “us”) such as community building, courses, content, mentor support, and our platform (collectively “Services”), are operated by Codelift Academy Private Limited itself. These terms and conditions apply to all our products and services including the website, and social media platforms i.e. Facebook, WhatsApp, Discord, and Instagram.
+    - list [ref=e30]:
+      - listitem [ref=e31]: Consent Declaration
+      - paragraph [ref=e32]: The user (“you”) acknowledges that you have read, understood, and agree to be bound by these Terms (in the manner specified herein) by accessing or using our website or using our Services. You may access and use our Services in accordance with these Terms.
+      - listitem [ref=e33]: Amendments
+      - paragraph [ref=e34]: We reserve the right to alter or modify these Terms at any time and may notify you of such changes. Your continued use of the Site signifies that you agree to the modified Terms and Conditions. It is your responsibility to check this page periodically. Any changes posted will be effective immediately unless otherwise specified.
+      - listitem [ref=e35]: User Account Creation & Access
+      - paragraph [ref=e36]:
+        - text: "To engage in most activities on the platform, it is necessary to have an account. By registering, you affirm that you have reached the age of majority and are competent to enter into a contract. If underage, please seek the assistance of a parent or guardian. You must provide accurate information including:"
+        - list [ref=e37]:
+          - listitem [ref=e38]: Full Name
+          - listitem [ref=e39]: Email Address
+          - listitem [ref=e40]: Phone Number
+        - text: "Note: Once a course is purchased with an Email ID, it is permanently linked to the course. Changing the registered email post-purchase is not permitted. You may also be required to provide additional information such as your address, educational background, or payment details. Sharing account details or personal data with anyone else is strictly prohibited. We are not responsible for any loss arising from unauthorized account access. To terminate your account or report any suspicious activity, please email us at: support@tle-eliminators.com."
+      - listitem [ref=e41]: USER GUIDELINES
+      - paragraph [ref=e42]:
+        - text: "You agree to:"
+        - list [ref=e43]:
+          - listitem [ref=e44]: Participate sincerely in all Services.
+          - listitem [ref=e45]: Not engage in cheating, plagiarism, or any illegal activity.
+          - listitem [ref=e46]: Not upload phishing, malware, or solicit sensitive user data.
+          - listitem [ref=e47]: Avoid harassment, threats, bullying, or hate speech.
+        - text: "We reserve the right to report suspicious activity to legal authorities. You are also prohibited from:"
+        - list [ref=e48]:
+          - listitem [ref=e49]: Tampering with backend systems or non-public sections.
+          - listitem [ref=e50]: Attempting to bypass security features.
+          - listitem [ref=e51]: Using scrapers, spiders, or bots to access the platform.
+          - listitem [ref=e52]: Sending spam, viruses, or interfering with others’ usage.
+        - text: "Note: Accounts that are found to be accessed from an excessive number of different IP addresses will be suspended without a refund. This measure is to prevent misuse and protect the integrity of our services."
+      - listitem [ref=e53]: Accuracy, Completeness, and Timeliness of Information
+      - paragraph [ref=e54]: We strive to provide accurate and current information across our Services. However, we are not responsible if information made available on our platform is not accurate, complete, or current. The material is intended for general information only and should not be the sole basis for decisions without consulting more complete or timely sources. The platform may contain historical information, which is not necessarily current and is provided for reference purposes only. We reserve the right to modify the contents at any time, but we are not obligated to update any information unless legally required. You acknowledge it is your responsibility to monitor any changes.
+      - listitem [ref=e55]: User Comments, Feedback, and Other Submissions
+      - paragraph [ref=e56]: If, at our request, you send specific submissions (e.g., contest entries) or voluntarily submit ideas, feedback, proposals, or other materials, you grant us the unrestricted right to edit, copy, publish, translate, and use such content in any medium, without obligation to keep it confidential or compensate you. We may, but are not obligated to, monitor or remove content we deem unlawful, offensive, threatening, or in violation of these Terms or any party’s rights. You agree that your submissions will not violate third-party rights, including copyrights, trademarks, or privacy. You must not submit content that is defamatory, unlawful, or contains malware or viruses. You may not impersonate others or mislead us or third-parties about the origin of any submission. You are solely responsible for the content and its accuracy. We disclaim liability for any user or third-party submitted content.
+      - listitem [ref=e57]: Errors, Inaccuracies, and Omissions
+      - paragraph [ref=e58]: Occasionally, there may be information on our website or related materials that contains typographical errors, pricing mistakes, or availability inaccuracies. We reserve the right to correct such errors or omissions and to change or update information without prior notice, even after you have submitted an order or request. We make no commitment to update or amend materials unless legally required. Any update timestamp on the site should not imply that all content has been revised. Users should not rely solely on platform content without verifying it from official or updated sources.
+      - listitem [ref=e59]: PRICING
+      - paragraph [ref=e60]: Prices may vary depending on course type, level, duration, demand, complexity, and promotional offers. All course fees must be paid upfront. We reserve the right to change pricing without prior notice, but the price at the time of your purchase will apply.
+      - listitem [ref=e61]: REFUND POLICY
+      - paragraph [ref=e62]: "Payment failure: In case the payment is not received, the full amount will be refunded within 7 working days. Refund requests: 80% of the course amount will be refunded if requested within the first week of purchase. Refunds are processed within 5 working days after the request is raised and credited to your bank account within 7 working days after verification of the request. Bundle courses: Refunds are only applicable for the entire bundle, not for individual courses within it."
+      - listitem [ref=e63]: PAYMENT TERMS
+      - paragraph [ref=e64]: By purchasing a one-time plan, you agree to pay all applicable fees. Charges will be automatically deducted from your provided payment method. We are not responsible for payment provider issues or foreign transaction fees. Until you receive confirmation via email/SMS, no contract exists. In the event of a chargeback, your account access may be suspended until resolution. We may seek recovery of legal or collection costs.
+      - listitem [ref=e65]: USAGE AT USER’S RISK
+      - paragraph [ref=e66]: You agree to use the platform at your own risk. All Services are provided “as-is” without warranties. We are not responsible for interactions with instructors, support personnel, or other students, or for outcomes such as career placement, test results, or admission offers. You may encounter links to third-party platforms. We do not control these sites and are not responsible for their reliability or legality.
+      - listitem [ref=e67]: TERMINATION/SUSPENSION
+      - paragraph [ref=e68]: If you do not accept these Terms or breach them, we may suspend, terminate, or restrict your access to any part of the Services without prior notice.
+      - listitem [ref=e69]: ROLE OF CODELIFT ACADEMY PRIVATE LIMITED
+      - paragraph [ref=e70]: We are not a registered academic institution. Certifications and acknowledgments provided are internal recognitions and not equivalent to government-recognized degrees or diplomas. Any partnership with educational institutions will be clearly stated.
+      - listitem [ref=e71]: INTELLECTUAL PROPERTY
+      - paragraph [ref=e72]: All content on the platform (text, video, images, code) is owned by TLE Eliminators or its licensors and protected under applicable laws. You may not copy, distribute, modify, or reuse any material without prior written consent.
+      - listitem [ref=e73]: BREACH OF CONTENT STANDARDS
+      - paragraph [ref=e74]:
+        - text: "Any breach of the above guidelines or Terms may result in:"
+        - list [ref=e75]:
+          - listitem [ref=e76]: Temporary or permanent suspension of access
+          - listitem [ref=e77]: Legal action for recovery of damages
+          - listitem [ref=e78]: Disclosure to legal authorities
+      - listitem [ref=e79]: THIRD-PARTY LINKS & TOOLS
+      - paragraph [ref=e80]: We may provide access to third-party tools or websites. These are provided “as-is” and we hold no liability for their reliability, accuracy, or legality. Please review third-party terms before engaging with them.
+      - listitem [ref=e81]: RIGHTS RESERVED
+      - paragraph [ref=e82]:
+        - text: "We reserve the right to:"
+        - list [ref=e83]:
+          - listitem [ref=e84]: Terminate or modify Services at any time
+          - listitem [ref=e85]: Introduce new features, pricing or policies
+          - listitem [ref=e86]: Disclose your identity if you breach legal rights of others
+          - listitem [ref=e87]: Investigate and prosecute violations of these Terms
+      - listitem [ref=e88]: INDEMNITY & LIMITATION OF LIABILITY
+      - paragraph [ref=e89]:
+        - text: "You agree to indemnify and hold harmless Codelift Academy, its affiliates, employees, and representatives against any claims, liabilities, damages, or costs (including attorney fees) resulting from:"
+        - list [ref=e90]:
+          - listitem [ref=e91]: Your use of the platform
+          - listitem [ref=e92]: Your content
+          - listitem [ref=e93]: Your violation of any laws or rights
+        - text: Our liability is capped to the amount paid by you (if any).
+      - listitem [ref=e94]: GOVERNING LAW & JURISDICTION
+      - paragraph [ref=e95]: These Terms shall be governed by and construed in accordance with the laws of India. All disputes shall be subject to the jurisdiction of the courts in Rampur, Uttar Pradesh. Accessing the platform from outside India does not imply applicability of foreign laws.
+      - listitem [ref=e96]: Force Majeure
+      - paragraph [ref=e97]: We shall not be held liable for failure or delay in performing our obligations under these Terms if such failure or delay is caused by circumstances beyond our reasonable control. This includes, but is not limited to, acts of God, governmental actions, war, fire, flood, natural disasters, pandemics, cyber-attacks, labor disputes, or internet service disruptions. Such circumstances will excuse performance under this Agreement for the duration of the event, and we will take reasonable steps to resume normal operations as soon as feasible.
+      - listitem [ref=e98]: Severability
+      - paragraph [ref=e99]: If any provision of these Terms is determined to be invalid, illegal, or unenforceable by a court of competent jurisdiction, such provision shall be severed and the remaining provisions shall continue in full force and effect. We intend for these Terms to be valid and enforceable to the maximum extent permitted by applicable law.
+      - listitem [ref=e100]: Waiver
+      - paragraph [ref=e101]: Our failure or delay to exercise any right or provision under these Terms shall not constitute a waiver of such right or provision. A waiver on one occasion shall not be deemed a waiver on any future occasion. Any waiver must be in writing and signed by an authorized representative of TLE Eliminators.
+      - listitem [ref=e102]: ENTIRE AGREEMENT
+      - paragraph [ref=e103]: These Terms, along with our Privacy Policy and any other legal notices published by us, constitute the entire agreement between you and TLE Eliminators concerning the use of our Services. They supersede any prior agreements, understandings, or representations, whether written or oral. In case of ambiguity or conflict between documents, these Terms shall prevail unless otherwise specified.
+      - listitem [ref=e104]: NOTICES
+      - paragraph [ref=e105]:
+        - text: All legal notices to us must be emailed to support@tle-eliminators.com. By using our platform, you agree to receive notices electronically.
+        - text: "Last Updated On: 20th April, 2025"
+  - generic [ref=e106]:
+    - generic [ref=e108]:
+      - generic [ref=e109]:
+        - generic [ref=e110]: Courses
+        - generic [ref=e111]:
+          - generic [ref=e112] [cursor=pointer]: Level 1
+          - generic [ref=e113] [cursor=pointer]: Level 2
+          - generic [ref=e114] [cursor=pointer]: Level 3
+          - generic [ref=e115] [cursor=pointer]: Level 4
+      - generic [ref=e116]:
+        - generic [ref=e117]: Information
+        - generic [ref=e118]:
+          - generic [ref=e119] [cursor=pointer]: Course FAQs
+          - generic [ref=e120] [cursor=pointer]: Terms & Conditions
+          - generic [ref=e121] [cursor=pointer]: Privacy Policy
+      - generic [ref=e122]:
+        - generic [ref=e123]: Company
+        - generic [ref=e124]:
+          - generic [ref=e125] [cursor=pointer]: Our Mentors
+          - generic [ref=e126] [cursor=pointer]: Contact Us
+          - generic [ref=e127] [cursor=pointer]: Report Bug
+      - generic [ref=e128]:
+        - generic [ref=e129]: Socials
+        - generic [ref=e130]:
+          - generic [ref=e131] [cursor=pointer]: Whatsapp
+          - generic [ref=e132] [cursor=pointer]: Discord
+          - generic [ref=e133] [cursor=pointer]: LinkedIn
+          - generic [ref=e134] [cursor=pointer]: Instagram
+          - generic [ref=e135] [cursor=pointer]: Twitter
+          - generic [ref=e136] [cursor=pointer]: Youtube
+    - generic [ref=e138] [cursor=pointer]:
+      - generic [ref=e139]:
+        - img "logo" [ref=e140]
+        - generic [ref=e141]: Codelift Academy Private Limited
+      - generic [ref=e142]: "|"
+      - generic [ref=e143]: All rights reserved.
+```

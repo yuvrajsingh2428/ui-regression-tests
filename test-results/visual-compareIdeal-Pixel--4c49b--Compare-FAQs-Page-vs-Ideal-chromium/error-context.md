@@ -1,0 +1,109 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e4]:
+  - banner [ref=e6]:
+    - link "Logo TLE Eliminators" [ref=e7] [cursor=pointer]:
+      - /url: /
+      - generic [ref=e8]:
+        - img "Logo" [ref=e9]
+        - generic [ref=e10]: TLE Eliminators
+    - generic [ref=e11]:
+      - link "Home" [ref=e12] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e13]: Home
+      - link "CP Digest" [ref=e14] [cursor=pointer]:
+        - /url: /cp-digest/*
+        - generic [ref=e15]: CP Digest
+      - link "Contest Tracker" [ref=e16] [cursor=pointer]:
+        - /url: /contest-tracker
+        - generic [ref=e17]: Contest Tracker
+      - link "CP-31 Sheet" [ref=e18] [cursor=pointer]:
+        - /url: /cp-sheet
+        - generic [ref=e19]: CP-31 Sheet
+      - link "Courses" [ref=e20] [cursor=pointer]:
+        - /url: /courses
+        - generic [ref=e21]: Courses
+    - generic [ref=e22]:
+      - button "Switch to Dark Mode" [ref=e23] [cursor=pointer]:
+        - img "Switch to Dark Mode" [ref=e24]
+      - button "Login / Register" [ref=e25] [cursor=pointer]
+  - generic [ref=e26]:
+    - generic [ref=e27]: FAQs
+    - generic [ref=e29]:
+      - generic [ref=e30]:
+        - button "Course Structure" [ref=e31] [cursor=pointer]: Course Structure
+        - button "Practice Problems" [ref=e33] [cursor=pointer]
+        - button "Doubt Support" [ref=e34] [cursor=pointer]
+        - button "Payments & Refunds" [ref=e35] [cursor=pointer]
+        - button "Validity" [ref=e36] [cursor=pointer]
+        - button "Miscellaneous" [ref=e37] [cursor=pointer]
+      - generic [ref=e39]:
+        - generic [ref=e40]:
+          - generic [ref=e41] [cursor=pointer]:
+            - text: What is the course structure?
+            - generic [ref=e42]: −
+          - generic [ref=e44]:
+            - paragraph [ref=e45]: •Our entire CP training is divided into 4 Levels (or courses).
+            - paragraph [ref=e46]: •Each level is a 12-14 weeks long program, divided into topic wise modules.
+            - paragraph [ref=e47]: •Each module contains 5-10 hours of content, totalling 60+ hours of content.
+            - paragraph [ref=e48]: •Each level comes with 100+ curated practice problems. Each practice problem comes with dedicated hints and a video solution.
+            - paragraph [ref=e49]: •You also get 1:1 doubt support by CP Experts, whenever you face any doubts in any CP problem from or outside the course.
+        - generic [ref=e51] [cursor=pointer]:
+          - text: What are the speaking languages used throughout the course?
+          - generic [ref=e52]: +
+        - generic [ref=e54] [cursor=pointer]:
+          - text: Is the course programming language dependent?
+          - generic [ref=e55]: +
+        - generic [ref=e57] [cursor=pointer]:
+          - text: How long are the lecture recordings?
+          - generic [ref=e58]: +
+    - generic [ref=e59]:
+      - generic [ref=e60]:
+        - heading "Have more queries?" [level=4] [ref=e61]
+        - paragraph [ref=e62]:
+          - generic [ref=e63]:
+            - text: Get instant support from our team on Whatsapp or
+            - link "Contact Us" [ref=e64] [cursor=pointer]:
+              - /url: /contact-us
+      - link "Message Us on WhatsApp" [ref=e65] [cursor=pointer]:
+        - /url: https://api.whatsapp.com/send?phone=919286466485&text=Hi%20TLE%20Team!
+        - img [ref=e67]
+        - generic [ref=e69]: Message Us on WhatsApp
+  - generic [ref=e70]:
+    - generic [ref=e72]:
+      - generic [ref=e73]:
+        - generic [ref=e74]: Courses
+        - generic [ref=e75]:
+          - generic [ref=e76] [cursor=pointer]: Level 1
+          - generic [ref=e77] [cursor=pointer]: Level 2
+          - generic [ref=e78] [cursor=pointer]: Level 3
+          - generic [ref=e79] [cursor=pointer]: Level 4
+      - generic [ref=e80]:
+        - generic [ref=e81]: Information
+        - generic [ref=e82]:
+          - generic [ref=e83] [cursor=pointer]: Course FAQs
+          - generic [ref=e84] [cursor=pointer]: Terms & Conditions
+          - generic [ref=e85] [cursor=pointer]: Privacy Policy
+      - generic [ref=e86]:
+        - generic [ref=e87]: Company
+        - generic [ref=e88]:
+          - generic [ref=e89] [cursor=pointer]: Our Mentors
+          - generic [ref=e90] [cursor=pointer]: Contact Us
+          - generic [ref=e91] [cursor=pointer]: Report Bug
+      - generic [ref=e92]:
+        - generic [ref=e93]: Socials
+        - generic [ref=e94]:
+          - generic [ref=e95] [cursor=pointer]: Whatsapp
+          - generic [ref=e96] [cursor=pointer]: Discord
+          - generic [ref=e97] [cursor=pointer]: LinkedIn
+          - generic [ref=e98] [cursor=pointer]: Instagram
+          - generic [ref=e99] [cursor=pointer]: Twitter
+          - generic [ref=e100] [cursor=pointer]: Youtube
+    - generic [ref=e102] [cursor=pointer]:
+      - generic [ref=e103]:
+        - img "logo" [ref=e104]
+        - generic [ref=e105]: Codelift Academy Private Limited
+      - generic [ref=e106]: "|"
+      - generic [ref=e107]: All rights reserved.
+```

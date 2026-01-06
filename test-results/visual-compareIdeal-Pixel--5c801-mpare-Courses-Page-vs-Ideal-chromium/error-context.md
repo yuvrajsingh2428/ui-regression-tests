@@ -1,0 +1,471 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e4]:
+  - banner [ref=e6]:
+    - link "Logo TLE Eliminators" [ref=e7] [cursor=pointer]:
+      - /url: /
+      - generic [ref=e8]:
+        - img "Logo" [ref=e9]
+        - generic [ref=e10]: TLE Eliminators
+    - generic [ref=e11]:
+      - link "Home" [ref=e12] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e13]: Home
+      - link "CP Digest" [ref=e14] [cursor=pointer]:
+        - /url: /cp-digest/*
+        - generic [ref=e15]: CP Digest
+      - link "Contest Tracker" [ref=e16] [cursor=pointer]:
+        - /url: /contest-tracker
+        - generic [ref=e17]: Contest Tracker
+      - link "CP-31 Sheet" [ref=e18] [cursor=pointer]:
+        - /url: /cp-sheet
+        - generic [ref=e19]: CP-31 Sheet
+      - link "Courses" [ref=e20] [cursor=pointer]:
+        - /url: /courses
+        - generic [ref=e21]: Courses
+    - generic [ref=e22]:
+      - button "Switch to Dark Mode" [ref=e23] [cursor=pointer]:
+        - img "Switch to Dark Mode" [ref=e24]
+      - button "Login / Register" [ref=e25] [cursor=pointer]
+  - generic [ref=e26]:
+    - generic [ref=e27]:
+      - heading "Our Flagship Courses" [level=1] [ref=e28]
+      - paragraph [ref=e29]: Our training is divided into 4 Levels. Depending on your experience level, you can choose to start your learning from any one of them.
+      - generic [ref=e30]:
+        - generic [ref=e31]:
+          - img "TLE Level - Beginner Course" [ref=e32]
+          - generic [ref=e33]:
+            - generic [ref=e35]:
+              - heading "Level 1 Self-Paced" [level=1] [ref=e36]
+              - generic [ref=e37]:
+                - img "Beginner" [ref=e38]
+                - generic [ref=e39]: Beginner
+            - paragraph [ref=e40]: For complete beginners who are starting their coding journey.
+            - generic [ref=e41]:
+              - generic [ref=e42]:
+                - img "Beginner" [ref=e43]
+                - paragraph [ref=e44]: 100+ Problems
+              - generic [ref=e45]:
+                - img "Beginner" [ref=e46]
+                - paragraph [ref=e47]: 40+ hrs of Recorded Lectures
+            - generic [ref=e48]:
+              - text: "Topics:"
+              - generic [ref=e50]: C++
+              - generic [ref=e52]: Math for CP
+              - generic [ref=e54]: Time & Space Complexity
+              - generic [ref=e56]: Searching & Sorting
+              - generic [ref=e58]: C++ STL & Strings
+              - generic [ref=e60]: Debugging
+          - generic [ref=e62]:
+            - generic [ref=e63]:
+              - generic [ref=e64]: ₹999
+              - generic [ref=e65]: ₹1249
+            - generic [ref=e66]:
+              - generic [ref=e67]: Sale is Live!
+              - button "Explore Now" [ref=e68] [cursor=pointer]
+        - generic [ref=e69]:
+          - img "TLE Level - Pre-Intermediate Course" [ref=e70]
+          - generic [ref=e71]:
+            - generic [ref=e73]:
+              - heading "Level 2 Self-Paced" [level=1] [ref=e74]
+              - generic [ref=e75]:
+                - img "Beginner" [ref=e76]
+                - generic [ref=e77]: Pre-Intermediate
+            - paragraph [ref=e78]: For coders who can solve 1 problem in most Codeforces Div2 rounds.
+            - generic [ref=e79]:
+              - generic [ref=e80]:
+                - img "Beginner" [ref=e81]
+                - paragraph [ref=e82]: 100+ Problems
+              - generic [ref=e83]:
+                - img "Beginner" [ref=e84]
+                - paragraph [ref=e85]: 40+ hrs of Recorded Lectures
+            - generic [ref=e86]:
+              - text: "Topics:"
+              - generic [ref=e88]: Prefix Sums
+              - generic [ref=e90]: Bit Manipulation
+              - generic [ref=e92]: Adhoc
+              - generic [ref=e94]: Recursion
+              - generic [ref=e96]: Backtracking
+              - generic [ref=e98]: Number Theory
+              - generic [ref=e100]: Stacks & Queues
+              - generic [ref=e102]: Adv. Sorting
+          - generic [ref=e104]:
+            - generic [ref=e105]:
+              - generic [ref=e106]: ₹1999
+              - generic [ref=e107]: ₹2499
+            - generic [ref=e108]:
+              - generic [ref=e109]: Sale is Live!
+              - button "Explore Now" [ref=e110] [cursor=pointer]
+        - generic [ref=e111]:
+          - img "TLE Level - Intermediate Course" [ref=e112]
+          - generic [ref=e113]:
+            - generic [ref=e115]:
+              - heading "Level 3 Self-Paced" [level=1] [ref=e116]
+              - generic [ref=e117]:
+                - img "Beginner" [ref=e118]
+                - generic [ref=e119]: Intermediate
+            - paragraph [ref=e120]: For coders who can solve 2 problems in most Codeforces Div2 rounds.
+            - generic [ref=e121]:
+              - generic [ref=e122]:
+                - img "Beginner" [ref=e123]
+                - paragraph [ref=e124]: 100+ Problems
+              - generic [ref=e125]:
+                - img "Beginner" [ref=e126]
+                - paragraph [ref=e127]: 45+ hrs of Recorded Lectures
+            - generic [ref=e128]:
+              - text: "Topics:"
+              - generic [ref=e130]: Adv. Binary Search
+              - generic [ref=e132]: Interactive Problems
+              - generic [ref=e134]: 2 Pointers
+              - generic [ref=e136]: Adv. Number Theory
+              - generic [ref=e138]: Combinatorics
+              - generic [ref=e140]: Greedy
+              - generic [ref=e142]: Hashing
+              - generic [ref=e144]: Tries
+          - generic [ref=e146]:
+            - generic [ref=e147]:
+              - generic [ref=e148]: ₹3399
+              - generic [ref=e149]: ₹4249
+            - generic [ref=e150]:
+              - generic [ref=e151]: Sale is Live!
+              - button "Explore Now" [ref=e152] [cursor=pointer]
+        - generic [ref=e153]:
+          - img "TLE Level - Advanced Course" [ref=e154]
+          - generic [ref=e155]:
+            - generic [ref=e157]:
+              - heading "Level 4 Self-Paced" [level=1] [ref=e158]
+              - generic [ref=e159]:
+                - img "Beginner" [ref=e160]
+                - generic [ref=e161]: Advanced
+            - paragraph [ref=e162]: For coders who can solve 3 problems in most Codeforces Div2 rounds.
+            - generic [ref=e163]:
+              - generic [ref=e164]:
+                - img "Beginner" [ref=e165]
+                - paragraph [ref=e166]: 100+ Problems
+              - generic [ref=e167]:
+                - img "Beginner" [ref=e168]
+                - paragraph [ref=e169]: 50+ hrs of Recorded Lectures
+            - generic [ref=e170]:
+              - text: "Topics:"
+              - generic [ref=e172]: Dynamic Programming
+              - generic [ref=e174]: Generic Trees
+              - generic [ref=e176]: Graphs
+              - generic [ref=e178]: Disjoint Set Union
+              - generic [ref=e180]: Segment Trees
+              - generic [ref=e182]: Sparse Tables
+          - generic [ref=e184]:
+            - generic [ref=e185]:
+              - generic [ref=e186]: ₹4399
+              - generic [ref=e187]: ₹5499
+            - generic [ref=e188]:
+              - generic [ref=e189]: Sale is Live!
+              - button "Explore Now" [ref=e190] [cursor=pointer]
+    - generic [ref=e191]:
+      - generic [ref=e192]:
+        - generic [ref=e193]:
+          - img "TLE Courses features - Progress Tracking & Leaderboard" [ref=e194]
+          - generic [ref=e195]: Progress Tracking & Leaderboard
+        - generic [ref=e196]:
+          - img "TLE Courses features - Post Contest Discussions for CP contests" [ref=e197]
+          - generic [ref=e198]: Post Contest Discussions for CP contests
+      - generic [ref=e199]:
+        - generic [ref=e200]:
+          - generic [ref=e201]:
+            - img "TLE Courses features - 40+ Hrs of Recorded Lectures" [ref=e202]
+            - generic [ref=e203]: 40+ Hrs of Recorded Lectures
+          - generic [ref=e204]:
+            - img "TLE Courses features - 100+ Curated Practice Problems" [ref=e205]
+            - generic [ref=e206]: 100+ Curated Practice Problems
+        - generic [ref=e207]: Course Features
+        - generic [ref=e208]:
+          - generic [ref=e209]:
+            - img "TLE Courses features - Hints & Video Solutions for Problems" [ref=e210]
+            - generic [ref=e211]: Hints & Video Solutions for Problems
+          - generic [ref=e212]:
+            - img "TLE Courses features - Doubt Support by High Rated Coders" [ref=e213]
+            - generic [ref=e214]: Doubt Support by High Rated Coders
+      - generic [ref=e215]:
+        - generic [ref=e216]:
+          - img "TLE Courses features - Internal Coding Contests on Course Topics" [ref=e217]
+          - generic [ref=e218]: Internal Coding Contests on Course Topics
+        - generic [ref=e219]:
+          - img "TLE Courses features - Guidance By CP Experts" [ref=e220]
+          - generic [ref=e221]: Guidance By CP Experts
+    - generic [ref=e222]:
+      - generic [ref=e223]: Confused Which Level to Choose?
+      - iframe [ref=e226]:
+        
+    - generic [ref=e227]:
+      - generic [ref=e228]:
+        - heading "Have any queries?" [level=4] [ref=e229]
+        - paragraph [ref=e230]:
+          - generic [ref=e231]:
+            - text: Check out our
+            - link "FAQs" [ref=e232] [cursor=pointer]:
+              - /url: /faqs
+            - text: or reach out to us on WhatsApp
+      - link "Message Us on WhatsApp" [ref=e233] [cursor=pointer]:
+        - /url: https://api.whatsapp.com/send?phone=919286466485&text=Hi%20TLE%20Team!
+        - img [ref=e235]
+        - generic [ref=e237]: Message Us on WhatsApp
+    - generic [ref=e238]:
+      - heading "Testimonials" [level=1] [ref=e239]
+      - generic [ref=e242]:
+        - generic [ref=e243]:
+          - generic [ref=e245]:
+            - generic [ref=e246]:
+              - img "TLE Student - Gaurish Baliga, Competitive Programming Achiever" [ref=e247]
+              - generic [ref=e248]:
+                - heading "Gaurish Baliga" [level=3] [ref=e249]
+                - paragraph [ref=e250]: TLE Eliminators 3.0
+            - paragraph [ref=e251]: I literally went from 1000-Newbie to 1500-Specialist on Codeforces in the span of this entire course. Apart from the rating gain, I got clarity about the topics I needed to study which would have been very hard to find otherwise. Anyone with a will to improve should go ahead with TLE Eliminators. Joining TLE as a mentor was also a great experience.
+          - generic [ref=e253]:
+            - generic [ref=e254]:
+              - img "TLE Student - Kunal Shaw, Competitive Programming Achiever" [ref=e255]
+              - generic [ref=e256]:
+                - heading "Kunal Shaw" [level=3] [ref=e257]
+                - paragraph [ref=e258]: TLE Eliminators 10.0
+            - paragraph [ref=e259]: I got a Free Slot for this course. Thanks to Priyansh for providing me with this course for free. It helped me a lot to learn many advanced topics such as Segment tree, Sparse Tables and Graphs. I also got an internship at GFG while learning CP from this course.
+          - generic [ref=e261]:
+            - generic [ref=e262]:
+              - img "TLE Student - Nikhil Kadyan, Competitive Programming Achiever" [ref=e263]
+              - generic [ref=e264]:
+                - heading "Nikhil Kadyan" [level=3] [ref=e265]
+                - paragraph [ref=e266]: TLE Eliminators 8.0, 9.0
+            - paragraph [ref=e267]: Enrolling in TLE 8.0 was an eye-opener for me as it focused my learning on CP algorithms and techniques for the first time. I advanced from a 1600 rating to 1910 with the Knight badge on LeetCode. The most valuable takeaway from the course was gaining a clear path for improvement and knowing where to focus. Taking TLE Eliminators was definitely the best decision I made in my CP journey.
+          - generic [ref=e269]:
+            - generic [ref=e270]:
+              - img "TLE Student - Roshan Kumar Verma, Competitive Programming Achiever" [ref=e271]
+              - generic [ref=e272]:
+                - heading "Roshan Kumar Verma" [level=3] [ref=e273]
+                - paragraph [ref=e274]: TLE Eliminators 8.0
+            - paragraph [ref=e275]: The doubt resolution support was outstanding, with mentors always available to guide me through complex problems. I understood the underlying algorithms and data structures thoroughly. Their supportive community provided an excellent environment for growth, allowing me to discuss strategies and receive feedback on my solutions.
+          - generic [ref=e277]:
+            - generic [ref=e278]:
+              - img "TLE Student - Javvaji Venkata Koushik, Competitive Programming Achiever" [ref=e279]
+              - generic [ref=e280]:
+                - heading "Javvaji Venkata Koushik" [level=3] [ref=e281]
+                - paragraph [ref=e282]: TLE Eliminators 10.0
+            - paragraph [ref=e283]: I recently reached the Specialist rank on Codeforces and achieved a 4-star rating on Codechef, thanks to TLE Eliminators. The course has been instrumental in my competitive programming journey, helping me grasp complex ideas with ease and understand the proofs behind them, which gave me immense clarity. Their excellent doubt support improved my problem-solving skills and boosted my confidence. Thank you, TLE Eliminators, for significantly impacting my CP journey.
+          - generic [ref=e285]:
+            - generic [ref=e286]:
+              - img "TLE Student - Rishi Chowdhury , Competitive Programming Achiever" [ref=e287]
+              - generic [ref=e288]:
+                - heading "Rishi Chowdhury" [level=3] [ref=e289]
+                - paragraph [ref=e290]: TLE Eliminators 9.0, 10.0
+            - paragraph [ref=e291]: It was only because of TLE Eliminators that I started enjoying Competitive Programming. The mentors helped me understand the concepts so well that I never felt the need to memorize the code for them. They genuinely made competitive programming enjoyable and rewarding.
+          - generic [ref=e293]:
+            - generic [ref=e294]:
+              - img "TLE Student - Jhalak Dashora, Competitive Programming Achiever" [ref=e295]
+              - generic [ref=e296]:
+                - heading "Jhalak Dashora" [level=3] [ref=e297]
+                - paragraph [ref=e298]: TLE Eliminators 4.0
+            - paragraph [ref=e299]: I was part of TLE. I asked my doubts on Discord and I got all my doubts resolved. TAs were so good that they could find the bug in minutes, in the problem which I was trying for hours. It saves a lot of time and also all TAs have an amazing patience level. After TLE, I felt more confident in approaching new problems.
+          - generic [ref=e301]:
+            - generic [ref=e302]:
+              - img "TLE Student - Rishav Mishra, Competitive Programming Achiever" [ref=e303]
+              - generic [ref=e304]:
+                - heading "Rishav Mishra" [level=3] [ref=e305]
+                - paragraph [ref=e306]: TLE Eliminators 7.0
+            - paragraph [ref=e307]: Before TLE’s CP course, I relied on YouTube videos or someone's help to clear my doubts. After the course, I became independent, learning through editorials and getting in the habit of reading blogs on Codeforces and CP algorithms. I am using the CP-31 sheet after the course and it helped me become comfortable with problems up to 1600 rating.
+          - generic [ref=e309]:
+            - generic [ref=e310]:
+              - img "TLE Student - Vinit Jain, Competitive Programming Achiever" [ref=e311]
+              - generic [ref=e312]:
+                - heading "Vinit Jain" [level=3] [ref=e313]
+                - paragraph [ref=e314]: TLE Eliminators 5.0
+            - paragraph [ref=e315]: I was a Newbie on Codeforces 4 months ago when I joined TLE Eliminators for the first time. I always thought that consistency is the key, but consistency in the right direction can do wonders. This direction was provided to me by TLE with curated practice problems. I went from a rating of 1100 to 1400+ on Codeforces in the last 3 months.
+          - generic [ref=e317]:
+            - generic [ref=e318]:
+              - img "TLE Student - Rishabh Prasad, Competitive Programming Achiever" [ref=e319]
+              - generic [ref=e320]:
+                - heading "Rishabh Prasad" [level=3] [ref=e321]
+                - paragraph [ref=e322]: TLE Eliminators 6.0
+            - paragraph [ref=e323]: Before TLE, I used to solve some random questions on Codeforces. But after the course got completed, I can say I have a defined path for my CP journey ahead. Though the results in terms of ratings were not significant for me in these 3 months, I've learned many new concepts and also have developed a better perspective on the previously learned concepts.
+          - generic [ref=e325]:
+            - generic [ref=e326]:
+              - img "TLE Student - Pratham Vasani, Competitive Programming Achiever" [ref=e327]
+              - generic [ref=e328]:
+                - heading "Pratham Vasani" [level=3] [ref=e329]
+                - paragraph [ref=e330]: TLE Eliminators 7.0
+            - paragraph [ref=e331]: I joined TLE 7.0 after seeing the testimonials, and it was the best decision I could have made to gain a solid understanding of CP. The best aspect of the course was the doubt-solving sessions, which not only resolved my doubts but also helped me understand what was wrong in my approach. I improved in many concepts thanks to the amazing live classes, and their contests provided valuable insights into my performance throughout the course.
+        - generic [ref=e332]:
+          - generic [ref=e334]:
+            - generic [ref=e335]:
+              - img "TLE Student - Siddhesh Patil, Competitive Programming Achiever" [ref=e336]
+              - generic [ref=e337]:
+                - heading "Siddhesh Patil" [level=3] [ref=e338]
+                - paragraph [ref=e339]: TLE Eliminators 7.0, 8.0
+            - paragraph [ref=e340]: I joined TLE as a Newbie, and by the end of TLE 7.0, I became a Specialist. At the end of TLE 8.0, I reached Expert level on Codeforces. I enjoyed the daily practice problems and the leaderboard, which gamifies problem-solving. The community helped me interact with people from different colleges. The mentors are excellent and solve doubts instantly. TLE has taught me how competitive programming should be practiced, and I would recommend it to anyone willing to put in the effort to improve.
+          - generic [ref=e342]:
+            - generic [ref=e343]:
+              - img "TLE Student - Ansh Gusain, Competitive Programming Achiever" [ref=e344]
+              - generic [ref=e345]:
+                - heading "Ansh Gusain" [level=3] [ref=e346]
+                - paragraph [ref=e347]: TLE Eliminators 10.0
+            - paragraph [ref=e348]: In my CP journey, TLE has played a great role. Before TLE, I was stuck at Newbie for a long time despite being consistent. After the course, my growth really took off. I gained over 200 positive deltas, moving from Newbie to Specialist in three months. The mentors are pretty cool and, apart from clearing doubts, they often reviewed my profile and provided guidance on how to reach Specialist. The overall experience there was great.
+          - generic [ref=e350]:
+            - generic [ref=e351]:
+              - img "TLE Student - Ram Patel, Competitive Programming Achiever" [ref=e352]
+              - generic [ref=e353]:
+                - heading "Ram Patel" [level=3] [ref=e354]
+                - paragraph [ref=e355]: TLE Eliminators 10.0
+            - paragraph [ref=e356]: I joined TLE as a newbie on Codeforces and became a Specialist during the course. One of the best aspects of TLE is the comprehensive knowledge it provides on every topic, including complex ones like dynamic programming (DP) and graphs. The doubt support is outstanding, with queries addressed within 5-10 minutes. The practice problems are both educational and challenging, significantly contributing to my progress. Additionally, they provide video solutions for all practice problems. The gamified scoring feature on the course website kept me motivated.
+          - generic [ref=e358]:
+            - generic [ref=e359]:
+              - img "TLE Student - Nikhil Dev Goyal, Competitive Programming Achiever" [ref=e360]
+              - generic [ref=e361]:
+                - heading "Nikhil Dev Goyal" [level=3] [ref=e362]
+                - paragraph [ref=e363]: TLE Eliminators 10.0
+            - paragraph [ref=e364]: When I registered for TLE Level 3, I was an 1100-rated Newbie. Now, after 3 months, I have reached Specialist. What I loved most about TLE was the massive amount of concepts I learned in a structured manner, which would have been extremely hard to learn on my own. The only thing I regret is not finding out about TLE earlier. If you want to get better at CP, joining TLE is a no-brainer.
+          - generic [ref=e366]:
+            - generic [ref=e367]:
+              - img "TLE Student - Selva Arumugam, Competitive Programming Achiever" [ref=e368]
+              - generic [ref=e369]:
+                - heading "Selva Arumugam" [level=3] [ref=e370]
+                - paragraph [ref=e371]: TLE Eliminators 10.0
+            - paragraph [ref=e372]: I was struggling with being consistent and that's where TLE helped me the most. Before TLE I was only doing CP for placements but now, CP has become fun and I love giving contests. Also, TLE's hand picked problems have made it easy for beginners who struggle in selecting the right set of problems.
+          - generic [ref=e374]:
+            - generic [ref=e375]:
+              - img "TLE Student - Tushar Mahajan, Competitive Programming Achiever" [ref=e376]
+              - generic [ref=e377]:
+                - heading "Tushar Mahajan" [level=3] [ref=e378]
+                - paragraph [ref=e379]: TLE Eliminators 1.0, 2.0, 3.0
+            - paragraph [ref=e380]: I have been with TLE Eliminators since the first batch and will continue to remain with TLE in upcoming months even though I have completed all levels. The most important contribution of TLE in my CP journey is helping me maintain consistency and practice. Resources are available online too, but TLE has provided a great community and an extremely efficient doubt resolution system.
+          - generic [ref=e382]:
+            - generic [ref=e383]:
+              - img "TLE Student - Subhadeep Mondal, Competitive Programming Achiever" [ref=e384]
+              - generic [ref=e385]:
+                - heading "Subhadeep Mondal" [level=3] [ref=e386]
+                - paragraph [ref=e387]: TLE Eliminators 8.0
+            - paragraph [ref=e388]: I went from 1200-Pupil to 1400-Specialist on Codeforces in the span of this entire course. Apart from the rating gain, I got clarity about the topics I needed to study, especially string hashing, binary search and graph problems, which would have been very hard to find otherwise. Tutorials are available everywhere but getting to know why my code is failing from the mentors is the most satisfying thing ever and that is the best thing about TLE. Anyone with a will to improve should go ahead with TLE Eliminators.
+          - generic [ref=e390]:
+            - generic [ref=e391]:
+              - img "TLE Student - Ayush Raj, Competitive Programming Achiever" [ref=e392]
+              - generic [ref=e393]:
+                - heading "Ayush Raj" [level=3] [ref=e394]
+                - paragraph [ref=e395]: TLE Eliminators 1.0, 2.0, 3.0
+            - paragraph [ref=e396]: TLE helped me in focusing on the right topics and concepts for my current level in CP. I got to connect with people of similar skill levels from different colleges, as well as many skilled programmers who were much higher rated than me. It made me fall in love with many CP topics by making me understand the underlying concepts in complete detail.
+          - generic [ref=e398]:
+            - generic [ref=e399]:
+              - img "TLE Student - Sabyasachi Bhoi, Competitive Programming Achiever" [ref=e400]
+              - generic [ref=e401]:
+                - heading "Sabyasachi Bhoi" [level=3] [ref=e402]
+                - paragraph [ref=e403]: TLE Eliminators 9.0
+            - paragraph [ref=e404]: Before joining TLE, I had been consistently solving problems on Codeforces but couldn't see any progress because I was practicing problems randomly without a clear goal. Through TLE’s Level 3 course, I learned many crucial topics, such as binary search, string hashing, and greedy approach, in a structured format, which led to better results. Within three months, I advanced from Newbie to Specialist rank.
+          - generic [ref=e406]:
+            - generic [ref=e407]:
+              - img "TLE Student - Mohit Kanodia, Competitive Programming Achiever" [ref=e408]
+              - generic [ref=e409]:
+                - heading "Mohit Kanodia" [level=3] [ref=e410]
+                - paragraph [ref=e411]: TLE Eliminators 10.0
+            - paragraph [ref=e412]: I was a part of TLE Level 4. The mentors were fantastic at explaining even the toughest CP concepts in the most intuitive way. The weekly live classes, followed by curated daily practice problems, are the best way to grow in CP. The live contest discussions have been very helpful in maintaining consistency in coding contests. I highly recommend anyone interested in CP to join TLE.
+        - generic [ref=e413]:
+          - generic [ref=e415]:
+            - generic [ref=e416]:
+              - img "TLE Student - Mayank Kaushik, Competitive Programming Achiever" [ref=e417]
+              - generic [ref=e418]:
+                - heading "Mayank Kaushik" [level=3] [ref=e419]
+                - paragraph [ref=e420]: TLE Eliminators 1.0, 2.0, 3.0
+            - paragraph [ref=e421]: For me personally, being consistent was never the problem. The only thing I couldn't figure out was practicing in an efficient way, focusing on only the quality problems out of this massive plethora of problems. TLE helped me out exactly with that. The TLE community keeps motivated, competitive and helps to stay on track.
+          - generic [ref=e423]:
+            - generic [ref=e424]:
+              - img "TLE Student - Nikhil Dixit, Competitive Programming Achiever" [ref=e425]
+              - generic [ref=e426]:
+                - heading "Nikhil Dixit" [level=3] [ref=e427]
+                - paragraph [ref=e428]: TLE Eliminators 8.0
+            - paragraph [ref=e429]: Before joining TLE 8.0, I was a 3-star on CodeChef and had a rating of 1185 on Codeforces. By the end of the course, I became a 4-star on CodeChef and reached a rating of 1340 on Codeforces. The most important thing I learned from TLE was to keep learning on my own. I got familiar with CP and got to know about amazing resources. Fast forward to now, I have achieved a rating of 1584 (highest) on Codeforces and become a Guardian on LeetCode (2300+).
+          - generic [ref=e431]:
+            - generic [ref=e432]:
+              - img "TLE Student - Abhishek Singh, Competitive Programming Achiever" [ref=e433]
+              - generic [ref=e434]:
+                - heading "Abhishek Singh" [level=3] [ref=e435]
+                - paragraph [ref=e436]: TLE Eliminators 6.0
+            - paragraph [ref=e437]: I joined TLE Eliminators Level 3 as a Newbie and became a Specialist on Codeforces in just 3 months. The mentors were really helpful in solving all my doubts and giving me hints to approach problems. The TLE community is amazing which helps even after the course duration. I would highly recommend TLE Eliminators to anyone who has an interest in CP.
+          - generic [ref=e439]:
+            - generic [ref=e440]:
+              - img "TLE Student - Siddhant Tohan, Competitive Programming Achiever" [ref=e441]
+              - generic [ref=e442]:
+                - heading "Siddhant Tohan" [level=3] [ref=e443]
+                - paragraph [ref=e444]: TLE Eliminators 5.0
+            - paragraph [ref=e445]: TLE Eliminators taught me how to solve problems and be consistent. TLE helped me to see CP as something to enjoy rather than a chore. After joining TLE, I felt motivated to give more contests and solve problems. I also got to interact with some of the best competitive programmers which helped me to become a Specialist on Codeforces.
+          - generic [ref=e447]:
+            - generic [ref=e448]:
+              - img "TLE Student - Harsh Singh, Competitive Programming Achiever" [ref=e449]
+              - generic [ref=e450]:
+                - heading "Harsh Singh" [level=3] [ref=e451]
+                - paragraph [ref=e452]: TLE Eliminators 10.0
+            - paragraph [ref=e453]: TLE’s course not only taught me advanced data structures from scratch but also gave me the confidence to solve problems up to a 1900-2000 rating. The well-structured course and excellent doubt support helped me identify and rectify my errors. The mentors are incredibly supportive and motivating. During this period, I progressed from a pupil to nearly an expert on Codeforces and reached a rating of 1905 in just four contests on CodeChef.
+          - generic [ref=e455]:
+            - generic [ref=e456]:
+              - img "TLE Student - Punit Gurmani, Competitive Programming Achiever" [ref=e457]
+              - generic [ref=e458]:
+                - heading "Punit Gurmani" [level=3] [ref=e459]
+                - paragraph [ref=e460]: TLE Eliminators 6.0
+            - paragraph [ref=e461]: TLE has helped in numerous ways in my CP Journey. Firstly, solving my doubts whenever I was stuck in problems. Secondly the guidance I got from people who were more experienced than me helped me broaden my mindset. TLE has helped me to connect with various Competitive Programmers which has led to a great peer network. Overall TLE has been an integral part of my CP Journey.
+          - generic [ref=e463]:
+            - generic [ref=e464]:
+              - img "TLE Student - Himanshu Mishra , Competitive Programming Achiever" [ref=e465]
+              - generic [ref=e466]:
+                - heading "Himanshu Mishra" [level=3] [ref=e467]
+                - paragraph [ref=e468]: TLE Eliminators 2.0, 9.0
+            - paragraph [ref=e469]: I have been mostly self taught, but joining TLE made me realize the importance of mentors. I used to randomly solve problems but turns out learning something from an expert can save thousands of hours. I also learned about the importance of applying different techniques. This ignorance had me stuck at Pupil for almost two years but after the mentorship I am an Expert now.
+          - generic [ref=e471]:
+            - generic [ref=e472]:
+              - img "TLE Student - Sourabh Miglani, Competitive Programming Achiever" [ref=e473]
+              - generic [ref=e474]:
+                - heading "Sourabh Miglani" [level=3] [ref=e475]
+                - paragraph [ref=e476]: TLE Eliminators 4.0
+            - paragraph [ref=e477]: I am from a tier-3 college where there is no culture for Competitive Programming. This is why I joined TLE. TLE helped me connect with people with similar goals who love doing CP. I learnt a lot in these 3 months. I thank the entire TLE team for making this wholesome course structure and for providing a place to ask all my CP related doubts freely.
+          - generic [ref=e479]:
+            - generic [ref=e480]:
+              - img "TLE Student - Amol Mittal , Competitive Programming Achiever" [ref=e481]
+              - generic [ref=e482]:
+                - heading "Amol Mittal" [level=3] [ref=e483]
+                - paragraph [ref=e484]: TLE Eliminators 9.0, 10.0
+            - paragraph [ref=e485]: I had just started my coding journey on Codeforces when I heard about TLE 9.0 through a friend. The course was very intuitive and provided a roadmap for my CP journey. I came across many key topics essential for solving questions. The live contest discussions after every contest were very helpful. Now, I am constantly trying to solve 1400 and 1500 rating questions from the CP-31 sheet to learn more concepts.
+          - generic [ref=e487]:
+            - generic [ref=e488]:
+              - img "TLE Student - Hariom Singh, Competitive Programming Achiever" [ref=e489]
+              - generic [ref=e490]:
+                - heading "Hariom Singh" [level=3] [ref=e491]
+                - paragraph [ref=e492]: TLE Eliminators 1.0, 2.0, 3.0
+            - paragraph [ref=e493]: Before joining TLE, I was struggling to maintain consistency in solving problems daily. But by solving the daily tasks, I learned how to consistently solve problems. It is for sure a dream community for Tier 3 college students as you get a chance to interact with other highly talented people from across India and learn how they approach CP problems.
+  - generic [ref=e494]:
+    - generic [ref=e496]:
+      - generic [ref=e497]:
+        - generic [ref=e498]: Courses
+        - generic [ref=e499]:
+          - generic [ref=e500] [cursor=pointer]: Level 1
+          - generic [ref=e501] [cursor=pointer]: Level 2
+          - generic [ref=e502] [cursor=pointer]: Level 3
+          - generic [ref=e503] [cursor=pointer]: Level 4
+      - generic [ref=e504]:
+        - generic [ref=e505]: Information
+        - generic [ref=e506]:
+          - generic [ref=e507] [cursor=pointer]: Course FAQs
+          - generic [ref=e508] [cursor=pointer]: Terms & Conditions
+          - generic [ref=e509] [cursor=pointer]: Privacy Policy
+      - generic [ref=e510]:
+        - generic [ref=e511]: Company
+        - generic [ref=e512]:
+          - generic [ref=e513] [cursor=pointer]: Our Mentors
+          - generic [ref=e514] [cursor=pointer]: Contact Us
+          - generic [ref=e515] [cursor=pointer]: Report Bug
+      - generic [ref=e516]:
+        - generic [ref=e517]: Socials
+        - generic [ref=e518]:
+          - generic [ref=e519] [cursor=pointer]: Whatsapp
+          - generic [ref=e520] [cursor=pointer]: Discord
+          - generic [ref=e521] [cursor=pointer]: LinkedIn
+          - generic [ref=e522] [cursor=pointer]: Instagram
+          - generic [ref=e523] [cursor=pointer]: Twitter
+          - generic [ref=e524] [cursor=pointer]: Youtube
+    - generic [ref=e526] [cursor=pointer]:
+      - generic [ref=e527]:
+        - img "logo" [ref=e528]
+        - generic [ref=e529]: Codelift Academy Private Limited
+      - generic [ref=e530]: "|"
+      - generic [ref=e531]: All rights reserved.
+```

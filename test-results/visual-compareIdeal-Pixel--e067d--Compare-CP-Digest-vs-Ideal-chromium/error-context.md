@@ -1,0 +1,339 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e4]:
+  - banner [ref=e6]:
+    - link "Logo TLE Eliminators" [ref=e7] [cursor=pointer]:
+      - /url: /
+      - generic [ref=e8]:
+        - img "Logo" [ref=e9]
+        - generic [ref=e10]: TLE Eliminators
+    - generic [ref=e11]:
+      - link "Home" [ref=e12] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e13]: Home
+      - link "CP Digest" [ref=e14] [cursor=pointer]:
+        - /url: /cp-digest/*
+        - generic [ref=e15]: CP Digest
+      - link "Contest Tracker" [ref=e16] [cursor=pointer]:
+        - /url: /contest-tracker
+        - generic [ref=e17]: Contest Tracker
+      - link "CP-31 Sheet" [ref=e18] [cursor=pointer]:
+        - /url: /cp-sheet
+        - generic [ref=e19]: CP-31 Sheet
+      - link "Courses" [ref=e20] [cursor=pointer]:
+        - /url: /courses
+        - generic [ref=e21]: Courses
+    - generic [ref=e22]:
+      - button "Switch to Dark Mode" [ref=e23] [cursor=pointer]:
+        - img "Switch to Dark Mode" [ref=e24]
+      - button "Login / Register" [ref=e25] [cursor=pointer]
+  - generic [ref=e26]:
+    - complementary [ref=e27]:
+      - generic [ref=e28]:
+        - heading "Catalog" [level=2] [ref=e29]
+        - button "Toggle sidebar" [ref=e31] [cursor=pointer]:
+          - img [ref=e32]
+      - generic [ref=e34]:
+        - generic [ref=e35]:
+          - generic "What is CP Digest" [ref=e36] [cursor=pointer]:
+            - img [ref=e37]
+            - generic [ref=e39]: What is CP Digest
+            - img [ref=e40]
+          - generic [ref=e42]:
+            - generic "Introducing CP Digest" [ref=e43] [cursor=pointer]:
+              - generic [ref=e45]: Introducing CP Digest
+            - generic "Features of CP Digest" [ref=e46] [cursor=pointer]:
+              - generic [ref=e48]: Features of CP Digest
+        - generic [ref=e49]:
+          - generic "How to Start CP" [ref=e50] [cursor=pointer]:
+            - img [ref=e51]
+            - generic [ref=e53]: How to Start CP
+            - img [ref=e54]
+          - generic [ref=e56]:
+            - generic "Decoding CP" [ref=e57] [cursor=pointer]:
+              - generic [ref=e59]: Decoding CP
+            - generic "Key Weapons for CP" [ref=e60] [cursor=pointer]:
+              - generic [ref=e62]: Key Weapons for CP
+            - generic "Best Language for CP" [ref=e63] [cursor=pointer]:
+              - generic [ref=e65]: Best Language for CP
+            - generic "Setting Up Your Environment" [ref=e66] [cursor=pointer]:
+              - generic [ref=e68]: Setting Up Your Environment
+            - generic "Online Judges" [ref=e69] [cursor=pointer]:
+              - generic [ref=e71]: Online Judges
+            - generic "Solve First Problem on CF" [ref=e72] [cursor=pointer]:
+              - generic [ref=e74]: Solve First Problem on CF
+            - generic "Solve First Problem on CC" [ref=e75] [cursor=pointer]:
+              - generic [ref=e77]: Solve First Problem on CC
+            - generic "Solve First Problem on LeetCode" [ref=e78] [cursor=pointer]:
+              - generic [ref=e80]: Solve First Problem on LeetCode
+        - generic [ref=e81]:
+          - generic "CP Tricks" [ref=e82] [cursor=pointer]:
+            - img [ref=e83]
+            - generic [ref=e85]: CP Tricks
+            - img [ref=e86]
+          - generic "Top Implementation Mistakes" [ref=e89] [cursor=pointer]:
+            - generic [ref=e90]:
+              - generic [ref=e91]: NEW
+              - generic [ref=e92]: Top Implementation Mistakes
+        - generic [ref=e93]:
+          - generic "CP Toolkit" [ref=e94] [cursor=pointer]:
+            - img [ref=e95]
+            - generic [ref=e97]: CP Toolkit
+            - img [ref=e98]
+          - generic [ref=e100]:
+            - generic "CP Resources" [ref=e101] [cursor=pointer]:
+              - generic [ref=e103]: CP Resources
+            - generic "CP Extensions" [ref=e104] [cursor=pointer]:
+              - generic [ref=e106]: CP Extensions
+        - generic [ref=e107]:
+          - generic "CP Spotlight" [ref=e108] [cursor=pointer]:
+            - img [ref=e109]
+            - generic [ref=e111]: CP Spotlight
+            - img [ref=e112]
+          - generic [ref=e114]:
+            - generic "Who is Shreyan Ray?" [ref=e115] [cursor=pointer]:
+              - generic [ref=e117]: Who is Shreyan Ray?
+            - generic "17-Year-Old Prodigy" [ref=e118] [cursor=pointer]:
+              - generic [ref=e119]:
+                - generic [ref=e120]: NEW
+                - generic [ref=e121]: 17-Year-Old Prodigy
+        - generic [ref=e122]:
+          - generic "CP-31 Sheet" [ref=e123] [cursor=pointer]:
+            - img [ref=e124]
+            - generic [ref=e126]: CP-31 Sheet
+            - img [ref=e127]
+          - generic "CP-31 Sheet Version 3 Features" [ref=e130] [cursor=pointer]:
+            - generic [ref=e132]: CP-31 Sheet Version 3 Features
+    - main [ref=e133]:
+      - generic [ref=e134]:
+        - generic [ref=e136]:
+          - generic [ref=e137]:
+            - img "Introducing CP Digest banner" [ref=e138]
+            - heading "Introducing CP Digest" [level=1] [ref=e139]
+            - paragraph [ref=e140]: This blog highlights how CP Digest simplifies the competitive programming journey by offering clear guidance, practical insights, and community-driven updates for learners and enthusiasts alike.
+            - generic [ref=e141]:
+              - button "Explore Courses" [ref=e142] [cursor=pointer]
+              - button "Want a tour?" [ref=e143] [cursor=pointer]
+          - generic [ref=e144]:
+            - generic [ref=e146]:
+              - img "TLE Eliminators avatar" [ref=e147]
+              - generic [ref=e148]:
+                - generic "TLE Eliminators" [ref=e149]
+                - link "LinkedIn Profile" [ref=e151] [cursor=pointer]:
+                  - /url: https://in.linkedin.com/company/tle-eliminators
+                  - img "LinkedIn Profile" [ref=e152]
+            - generic [ref=e153]:
+              - generic [ref=e154]:
+                - generic [ref=e155]:
+                  - text: 30th November, 2025
+                  - generic [ref=e156]: •
+                  - generic [ref=e157]:
+                    - img [ref=e158]
+                    - generic [ref=e160]: 7 mins read
+                  - generic [ref=e161]: •
+                - generic [ref=e162]:
+                  - img [ref=e163]
+                  - generic [ref=e165]: 24192 views
+              - generic [ref=e166]:
+                - generic "Share" [ref=e168] [cursor=pointer]:
+                  - img [ref=e169]
+                - generic [ref=e171] [cursor=pointer]:
+                  - img [ref=e172]
+                  - generic [ref=e174]: "32"
+                - img [ref=e176] [cursor=pointer]
+            - generic [ref=e178]:
+              - generic [ref=e179]: Competitive Programming
+              - generic [ref=e180]: CP Guide
+              - generic [ref=e181]: Learning Strategy
+              - generic [ref=e182]: Community Insights
+          - generic [ref=e183]:
+            - heading "Introduction" [level=1] [ref=e184]:
+              - generic [ref=e186]: Introduction
+            - paragraph [ref=e187]:
+              - text: Let's be honest, the first time most of us opened
+              - link "CP-Algorithms" [ref=e188] [cursor=pointer]:
+                - /url: https://cp-algorithms.com
+              - text: ", we didn't feel smarter. We just sat there, staring at Greek letters and dense paragraphs, wondering if we'd accidentally stumbled into a math PhD thesis."
+            - paragraph [ref=e189]: And that’s not your fault. There's immense knowledge in an encyclopedia, but it's useless if you don't know where to start, what to read first, or how it all connects together.
+            - paragraph [ref=e190]: Competitive Programming is incredible, but learning it often feels like being asked to solve a DP problem before you even know what recursion is.
+            - paragraph [ref=e191]:
+              - strong [ref=e192]: And thatʼs exactly what we are fixing here.
+            - paragraph [ref=e193]:
+              - text: Welcome to
+              - strong [ref=e194]: CP Digest
+              - text: ", the resource that turns competitive programming from overwhelming to achievable. Stop wasting time drowning in vast resources or endlessly scrolling through problem sets."
+              - text: Grab this train and just show up consistently.
+            - separator [ref=e195]
+            - heading "What is CP Digest?" [level=2] [ref=e196]:
+              - generic [ref=e198]: What is CP Digest?
+            - paragraph [ref=e199]: CP Digest is a guided blog series designed to make competitive programming feel like a plan, not a panic.
+            - paragraph [ref=e200]: We're not here to teach you what a segment tree is or how Dijkstra's algorithm works. We're here to answer the real questions that actually keep you stuck, the ones no one else addresses.
+            - paragraph [ref=e201]:
+              - text: We skip the textbook theory and focus on the
+              - strong [ref=e202]: how
+              - text: "of competitive programming: how to start, how to improve, how to compete, and how to stay connected to the scene."
+            - separator [ref=e203]
+            - heading "Who Is This For?" [level=2] [ref=e204]:
+              - generic [ref=e206]: Who Is This For?
+            - paragraph [ref=e207]: "In this edition, weʼve got two kinds of people here: those who want to level up and actually get good at competitive programming, and those who just enjoy being part of the CP world, the chaos, the culture, and the conversations."
+            - paragraph [ref=e208]: Your CP journey is your own. Whether youʼre starting from scratch, switching over from LeetCode, or simply here to stay in touch with whatʼs happening, CP Digest meets you where you are.
+            - separator [ref=e209]
+            - heading "1. The Learners" [level=3] [ref=e210]:
+              - generic [ref=e212]: 1. The Learners
+            - paragraph [ref=e213]: You are here because you want to get better.
+            - paragraph [ref=e214]: Maybe you’re still deciding between C++ and Python, trying to set up your environment without accidentally deleting half your files. Or maybe you’ve been grinding problems for months but your rating refuses to move. You feel stuck. You’re working hard, but it feels like running in circles.
+            - paragraph [ref=e215]:
+              - text: If that sounds like you,
+              - strong [ref=e216]: Welcome!
+            - paragraph [ref=e217]: Weʼll make sure your CP journey feels less like a maze and more like a guided tour. Youʼll pick up CodeForces-style thinking, clean implementation tricks, and a rhythm that fits your college or work life.
+            - separator [ref=e218]
+            - heading "2. The Enthusiasts" [level=3] [ref=e219]:
+              - generic [ref=e221]: 2. The Enthusiasts
+            - paragraph [ref=e222]:
+              - text: Youʼre the ones who love keeping up with everything happening in the competitive programming world, not necessarily solving problems, but always curious about whatʼs going on. You like knowing whatʼs trending, from new updates like CP-31 Sheet v3 to funny community moments, contest highlights, or stories like why
+              - strong [ref=e223]:
+                - text: Shreyan Ray aka
+                - link "Dominater069" [ref=e224] [cursor=pointer]:
+                  - /url: https://codeforces.com/profile/Dominater069
+              - text: suddenly became the talk of the town.
+            - paragraph [ref=e225]: Donʼt worry, weʼve got your weekly tea covered, the wins, the updates, the chaos, and the people behind the profiles.
+            - paragraph [ref=e226]:
+              - text: For you, CP Digest isnʼt a problem-solving guide, itʼs your weekly scroll through the CP world.
+              - text: A fun way to stay connected with the community, learn a little along the way, and never feel left out of the conversation.
+            - separator [ref=e227]
+            - heading "What Makes It Different?" [level=2] [ref=e228]:
+              - generic [ref=e230]: What Makes It Different?
+            - paragraph [ref=e231]:
+              - text: Most resources assume you already know where you're going.
+              - strong [ref=e232]: We assume you're figuring it out, and that's completely okay.
+            - paragraph [ref=e233]: CP Digest isn't about dumping theory on you. It's about the real, practical stuff, the questions that don't have clear answers anywhere, the mistakes everyone makes but no one talks about, and the unwritten rules of the CP world that you're supposed to just figure out on your own.
+            - paragraph [ref=e234]:
+              - text: We don't just tell you what to do. We show you
+              - strong [ref=e235]: how
+              - text: ","
+              - strong [ref=e236]: why
+              - text: ", and"
+              - strong [ref=e237]: when
+              - text: ", with real examples, honest advice, and zero gatekeeping."
+            - separator [ref=e238]
+            - heading "Final Words" [level=2] [ref=e239]:
+              - generic [ref=e241]: Final Words
+            - paragraph [ref=e242]: The CP world is full of resources, but short on clarity. CP Digest fixes that. We're not here to add more noise. We're here to cut through it answering the questions that matter, covering the stories worth knowing, and giving you exactly what you need to move forward. Show up, stay curious, and let's make CP less intimidating and a lot more fun.
+            - paragraph [ref=e243]:
+              - strong [ref=e244]: Stay tuned! 💪🏻
+          - region "quiz-banner" [ref=e246] [cursor=pointer]:
+            - button "Test Your Knowledge Take a quick 4 question quiz to test what you've learned." [ref=e248]:
+              - img [ref=e250]
+              - generic [ref=e252]:
+                - heading "Test Your Knowledge" [level=3] [ref=e253]
+                - generic [ref=e254]: Take a quick 4 question quiz to test what you've learned.
+            - button "Start Quiz" [ref=e256]
+          - generic [ref=e257]:
+            - heading "Practice Problems" [level=2] [ref=e258]:
+              - img [ref=e259]
+              - text: Practice Problems
+            - list [ref=e261]:
+              - listitem [ref=e262]:
+                - link "Halloumi Boxes - Codeforces" [ref=e263] [cursor=pointer]:
+                  - /url: https://codeforces.com/problemset/problem/1903/A
+              - listitem [ref=e264]:
+                - link "Line Trip - Codeforces" [ref=e265] [cursor=pointer]:
+                  - /url: https://codeforces.com/problemset/problem/1901/A
+              - listitem [ref=e266]:
+                - link "Cover in Water - Codeforces" [ref=e267] [cursor=pointer]:
+                  - /url: https://codeforces.com/problemset/problem/1900/A
+              - listitem [ref=e268]:
+                - link "Forked! - Codeforces" [ref=e269] [cursor=pointer]:
+                  - /url: https://codeforces.com/problemset/problem/1904/A
+              - listitem [ref=e270]:
+                - link "Chemistry - Codeforces" [ref=e271] [cursor=pointer]:
+                  - /url: https://codeforces.com/problemset/problem/1883/B
+              - listitem [ref=e272]:
+                - link "Vasilije in Cacak - Codeforces" [ref=e273] [cursor=pointer]:
+                  - /url: https://codeforces.com/problemset/problem/1878/C
+              - listitem [ref=e274]:
+                - link "Swap and Delete - Codeforces" [ref=e275] [cursor=pointer]:
+                  - /url: https://codeforces.com/problemset/problem/1913/B
+              - listitem [ref=e276]:
+                - link "Raspberries - Codeforces" [ref=e277] [cursor=pointer]:
+                  - /url: https://codeforces.com/problemset/problem/1883/C
+              - listitem [ref=e278]:
+                - link "Helmets in Night Light - Codeforces" [ref=e279] [cursor=pointer]:
+                  - /url: https://codeforces.com/problemset/problem/1876/A
+          - generic [ref=e280]:
+            - heading "Additional Resources" [level=2] [ref=e281]:
+              - img [ref=e282]
+              - text: Additional Resources
+            - list [ref=e284]:
+              - listitem [ref=e285]:
+                - link "CP-31 Sheet" [ref=e286] [cursor=pointer]:
+                  - /url: https://www.tle-eliminators.com/cp-sheet
+              - listitem [ref=e287]:
+                - link "Contest Tracker" [ref=e288] [cursor=pointer]:
+                  - /url: https://www.tle-eliminators.com/contest-tracker
+          - heading "Explore More Blogs" [level=2] [ref=e290]:
+            - img [ref=e291]
+            - text: Explore More Blogs
+          - generic [ref=e293] [cursor=pointer]:
+            - img "Features of CP Digest" [ref=e294]
+            - generic [ref=e295]:
+              - generic [ref=e296]: Next
+              - heading "Features of CP Digest" [level=3] [ref=e297]
+              - paragraph [ref=e298]: This blog highlights the key features of CP Digest and how each one is designed to create a structured, efficient, and engaging competitive programming learning experience.
+        - complementary [ref=e299]:
+          - heading "On This Page" [level=2] [ref=e300]
+          - list [ref=e301]:
+            - listitem "Introduction" [ref=e302] [cursor=pointer]:
+              - generic [ref=e303]: Introduction
+            - listitem "What is CP Digest?" [ref=e304] [cursor=pointer]:
+              - generic [ref=e305]: What is CP Digest?
+            - listitem "Who Is This For?" [ref=e306] [cursor=pointer]:
+              - generic [ref=e307]: Who Is This For?
+            - listitem "1. The Learners" [ref=e308] [cursor=pointer]:
+              - generic [ref=e309]: 1. The Learners
+            - listitem "2. The Enthusiasts" [ref=e310] [cursor=pointer]:
+              - generic [ref=e311]: 2. The Enthusiasts
+            - listitem "What Makes It Different?" [ref=e312] [cursor=pointer]:
+              - generic [ref=e313]: What Makes It Different?
+            - listitem "Final Words" [ref=e314] [cursor=pointer]:
+              - generic [ref=e315]: Final Words
+          - img "TLE CP Digest Course Banner" [ref=e317] [cursor=pointer]
+  - img "Report a bug" [ref=e320] [cursor=pointer]
+  - generic [ref=e322]:
+    - generic [ref=e324]:
+      - generic [ref=e325]:
+        - generic [ref=e326]: Courses
+        - generic [ref=e327]:
+          - generic [ref=e328] [cursor=pointer]: Level 1
+          - generic [ref=e329] [cursor=pointer]: Level 2
+          - generic [ref=e330] [cursor=pointer]: Level 3
+          - generic [ref=e331] [cursor=pointer]: Level 4
+      - generic [ref=e332]:
+        - generic [ref=e333]: Information
+        - generic [ref=e334]:
+          - generic [ref=e335] [cursor=pointer]: Course FAQs
+          - generic [ref=e336] [cursor=pointer]: Terms & Conditions
+          - generic [ref=e337] [cursor=pointer]: Privacy Policy
+      - generic [ref=e338]:
+        - generic [ref=e339]: Company
+        - generic [ref=e340]:
+          - generic [ref=e341] [cursor=pointer]: Our Mentors
+          - generic [ref=e342] [cursor=pointer]: Contact Us
+          - generic [ref=e343] [cursor=pointer]: Report Bug
+      - generic [ref=e344]:
+        - generic [ref=e345]: Socials
+        - generic [ref=e346]:
+          - generic [ref=e347] [cursor=pointer]: Whatsapp
+          - generic [ref=e348] [cursor=pointer]: Discord
+          - generic [ref=e349] [cursor=pointer]: LinkedIn
+          - generic [ref=e350] [cursor=pointer]: Instagram
+          - generic [ref=e351] [cursor=pointer]: Twitter
+          - generic [ref=e352] [cursor=pointer]: Youtube
+    - generic [ref=e354] [cursor=pointer]:
+      - generic [ref=e355]:
+        - img "logo" [ref=e356]
+        - generic [ref=e357]: Codelift Academy Private Limited
+      - generic [ref=e358]: "|"
+      - generic [ref=e359]: All rights reserved.
+```

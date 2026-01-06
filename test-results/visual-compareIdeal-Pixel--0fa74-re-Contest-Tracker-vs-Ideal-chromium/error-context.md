@@ -1,0 +1,369 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e4]:
+  - banner [ref=e6]:
+    - link "Logo TLE Eliminators" [ref=e7] [cursor=pointer]:
+      - /url: /
+      - generic [ref=e8]:
+        - img "Logo" [ref=e9]
+        - generic [ref=e10]: TLE Eliminators
+    - generic [ref=e11]:
+      - link "Home" [ref=e12] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e13]: Home
+      - link "CP Digest" [ref=e14] [cursor=pointer]:
+        - /url: /cp-digest/*
+        - generic [ref=e15]: CP Digest
+      - link "Contest Tracker" [ref=e16] [cursor=pointer]:
+        - /url: /contest-tracker
+        - generic [ref=e17]: Contest Tracker
+      - link "CP-31 Sheet" [ref=e18] [cursor=pointer]:
+        - /url: /cp-sheet
+        - generic [ref=e19]: CP-31 Sheet
+      - link "Courses" [ref=e20] [cursor=pointer]:
+        - /url: /courses
+        - generic [ref=e21]: Courses
+    - generic [ref=e22]:
+      - button "Switch to Dark Mode" [ref=e23] [cursor=pointer]:
+        - img "Switch to Dark Mode" [ref=e24]
+      - button "Login / Register" [ref=e25] [cursor=pointer]
+  - generic [ref=e26]:
+    - generic [ref=e27]:
+      - generic [ref=e28]:
+        - generic [ref=e29]:
+          - generic [ref=e30]: Contest Tracker
+          - generic [ref=e31]: By TLE Eliminators
+        - generic [ref=e32]: This is a one stop solution for keeping track of all upcoming contests from CP platforms like Codeforces, Codechef, Leetcode and Atcoder, along with high quality video solutions of past contests, to help you in upsolving.
+        - generic [ref=e33]:
+          - button "Google calender Icon Add to Calendar" [ref=e34] [cursor=pointer]:
+            - generic [ref=e35]:
+              - img "Google calender Icon" [ref=e36]
+              - text: Add to Calendar
+          - button "Want a Tour?" [ref=e37] [cursor=pointer]
+        - generic [ref=e38]:
+          - generic [ref=e39]: 3100+ Coders
+          - text: have synced their Google Calendars
+      - iframe [ref=e43]:
+        - generic "YouTube Video Player" [ref=f3e3]:
+          - generic [ref=f3e5]:
+            - link "Photo image of TLE Eliminators - by Priyansh" [ref=f3e7] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UCqL-fzHtN3NQPbYqGymMbTA?embeds_referring_euri=https%3A%2F%2Fwww.tle-eliminators.com%2F
+            - link "Contest Tracker Walkthrough" [ref=f3e10] [cursor=pointer]:
+              - /url: https://www.youtube.com/watch?v=0xZDrADvWTo
+            - button "Share" [ref=f3e12] [cursor=pointer]:
+              - generic [ref=f3e13]:
+                - img
+              - generic [ref=f3e14]: Share
+          - button "Play" [ref=f3e17] [cursor=pointer]:
+            - img
+          - link "Watch on YouTube" [ref=f3e18] [cursor=pointer]:
+            - /url: https://www.youtube.com/watch?v=0xZDrADvWTo&embeds_referring_euri=https%3A%2F%2Fwww.tle-eliminators.com%2F
+            - generic [ref=f3e19]: Watch on
+            - generic [ref=f3e20]:
+              - img
+    - generic [ref=e44]:
+      - generic [ref=e46]:
+        - generic [ref=e47]:
+          - generic [ref=e48]: Contest Platforms + Divisions
+          - generic [ref=e49]:
+            - log [ref=e51]
+            - generic [ref=e52] [cursor=pointer]:
+              - generic [ref=e53]:
+                - generic [ref=e54]: Select contest types...
+                - combobox [ref=e56]
+              - img [ref=e60]
+        - generic [ref=e64]:
+          - button "Calendar" [ref=e65] [cursor=pointer]: Calendar
+          - button "List" [ref=e67] [cursor=pointer]
+      - generic [ref=e71]:
+        - generic [ref=e72]:
+          - generic [ref=e73]:
+            - generic [ref=e75]:
+              - button [ref=e76] [cursor=pointer]:
+                - img [ref=e77]: 
+              - button [ref=e78] [cursor=pointer]:
+                - img [ref=e79]: 
+            - heading "January 2026" [level=2] [ref=e81]
+          - generic "January 2026" [ref=e83]:
+            - grid [ref=e85]:
+              - rowgroup [ref=e86]:
+                - row "Sunday Monday Tuesday Wednesday Thursday Friday Saturday" [ref=e90]:
+                  - columnheader "Sunday" [ref=e91]:
+                    - generic "Sunday" [ref=e93]: Sun
+                  - columnheader "Monday" [ref=e94]:
+                    - generic "Monday" [ref=e96]: Mon
+                  - columnheader "Tuesday" [ref=e97]:
+                    - generic "Tuesday" [ref=e99]: Tue
+                  - columnheader "Wednesday" [ref=e100]:
+                    - generic "Wednesday" [ref=e102]: Wed
+                  - columnheader "Thursday" [ref=e103]:
+                    - generic "Thursday" [ref=e105]: Thu
+                  - columnheader "Friday" [ref=e106]:
+                    - generic "Friday" [ref=e108]: Fri
+                  - columnheader "Saturday" [ref=e109]:
+                    - generic "Saturday" [ref=e111]: Sat
+              - rowgroup [ref=e112]:
+                - generic [ref=e115]:
+                  - row "December 28, 2025 December 29, 2025 December 30, 2025 December 31, 2025 January 1, 2026 January 2, 2026 January 3, 2026" [ref=e117]:
+                    - gridcell "December 28, 2025" [ref=e118]:
+                      - generic [ref=e119]:
+                        - generic "December 28, 2025" [ref=e121]: "28"
+                        - generic [ref=e122]:
+                          - generic "Weekly 482" [ref=e126] [cursor=pointer]:
+                            - generic [ref=e128]:
+                              - img "YouTube Solution" [ref=e129]
+                              - img "Weekly 482" [ref=e130]
+                              - generic [ref=e131]: Weekly 482
+                          - generic "Grand Contest 076" [ref=e135] [cursor=pointer]:
+                            - generic [ref=e137]:
+                              - img "Grand Contest 076" [ref=e138]
+                              - generic [ref=e139]: Grand Contest 076
+                    - gridcell "December 29, 2025" [ref=e140]:
+                      - generic [ref=e141]:
+                        - generic "December 29, 2025" [ref=e143]: "29"
+                        - generic "Edu Round 186" [ref=e148] [cursor=pointer]:
+                          - generic [ref=e150]:
+                            - img "YouTube Solution" [ref=e151]
+                            - img "Edu Round 186" [ref=e152]
+                            - generic [ref=e153]: Edu Round 186
+                    - gridcell "December 30, 2025" [ref=e154]:
+                      - generic "December 30, 2025" [ref=e157]: "30"
+                    - gridcell "December 31, 2025" [ref=e159]:
+                      - generic [ref=e160]:
+                        - generic "December 31, 2025" [ref=e162]: "31"
+                        - generic "Starters 219 (Rated till 5 star)" [ref=e167] [cursor=pointer]:
+                          - generic [ref=e169]:
+                            - img "YouTube Solution" [ref=e170]
+                            - img "Starters 219 (Rated till 5 star)" [ref=e171]
+                            - generic [ref=e172]: Starters 219 (Rated till 5 star)
+                    - gridcell "January 1, 2026" [ref=e173]:
+                      - generic "January 1, 2026" [ref=e176]: "1"
+                    - gridcell "January 2, 2026" [ref=e178]:
+                      - generic "January 2, 2026" [ref=e181]: "2"
+                    - gridcell "January 3, 2026" [ref=e183]:
+                      - generic [ref=e184]:
+                        - generic "January 3, 2026" [ref=e186]: "3"
+                        - generic [ref=e187]:
+                          - generic "Beginner Contest 439" [ref=e191] [cursor=pointer]:
+                            - generic [ref=e193]:
+                              - img "Beginner Contest 439" [ref=e194]
+                              - generic [ref=e195]: Beginner Contest 439
+                          - generic "Biweekly 173" [ref=e199] [cursor=pointer]:
+                            - generic [ref=e201]:
+                              - img "Biweekly 173" [ref=e202]
+                              - generic [ref=e203]: Biweekly 173
+                  - row "January 4, 2026 January 5, 2026 January 6, 2026 January 7, 2026 January 8, 2026 January 9, 2026 January 10, 2026" [ref=e204]:
+                    - gridcell "January 4, 2026" [ref=e205]:
+                      - generic [ref=e206]:
+                        - generic "January 4, 2026" [ref=e208]: "4"
+                        - generic "Weekly 483" [ref=e213] [cursor=pointer]:
+                          - generic [ref=e215]:
+                            - img "YouTube Solution" [ref=e216]
+                            - img "Weekly 483" [ref=e217]
+                            - generic [ref=e218]: Weekly 483
+                    - gridcell "January 5, 2026" [ref=e219]:
+                      - generic "January 5, 2026" [ref=e222]: "5"
+                    - gridcell "January 6, 2026" [ref=e224]:
+                      - generic "January 6, 2026" [ref=e227]: "6"
+                    - gridcell "January 7, 2026" [ref=e229]:
+                      - generic [ref=e230]:
+                        - generic "January 7, 2026" [ref=e232]: "7"
+                        - generic [ref=e233]:
+                          - generic "Starters 220" [ref=e237] [cursor=pointer]:
+                            - generic [ref=e239]:
+                              - img "Starters 220" [ref=e240]
+                              - generic [ref=e241]: Starters 220
+                          - generic "Hello 2026" [ref=e245] [cursor=pointer]:
+                            - generic [ref=e247]:
+                              - img "Hello 2026" [ref=e248]
+                              - generic [ref=e249]: Hello 2026
+                    - gridcell "January 8, 2026" [ref=e250]:
+                      - generic "January 8, 2026" [ref=e253]: "8"
+                    - gridcell "January 9, 2026" [ref=e255]:
+                      - generic "January 9, 2026" [ref=e258]: "9"
+                    - gridcell "January 10, 2026" [ref=e260]:
+                      - generic [ref=e261]:
+                        - generic "January 10, 2026" [ref=e263]: "10"
+                        - generic "Beginner Contest 440" [ref=e268] [cursor=pointer]:
+                          - generic [ref=e270]:
+                            - img "Beginner Contest 440" [ref=e271]
+                            - generic [ref=e272]: Beginner Contest 440
+                  - row "January 11, 2026 January 12, 2026 January 13, 2026 January 14, 2026 January 15, 2026 January 16, 2026 January 17, 2026" [ref=e273]:
+                    - gridcell "January 11, 2026" [ref=e274]:
+                      - generic [ref=e275]:
+                        - generic "January 11, 2026" [ref=e277]: "11"
+                        - generic [ref=e278]:
+                          - generic "Weekly 484" [ref=e282] [cursor=pointer]:
+                            - generic [ref=e284]:
+                              - img "Weekly 484" [ref=e285]
+                              - generic [ref=e286]: Weekly 484
+                          - generic "Regular Contest 212" [ref=e290] [cursor=pointer]:
+                            - generic [ref=e292]:
+                              - img "Regular Contest 212" [ref=e293]
+                              - generic [ref=e294]: Regular Contest 212
+                    - gridcell "January 12, 2026" [ref=e295]:
+                      - generic [ref=e296]:
+                        - generic "January 12, 2026" [ref=e298]: "12"
+                        - generic "Codeforces Round (Div. 3)" [ref=e303] [cursor=pointer]:
+                          - generic [ref=e305]:
+                            - img "Codeforces Round (Div. 3)" [ref=e306]
+                            - generic [ref=e307]: Codeforces Round (Div. 3)
+                    - gridcell "January 13, 2026" [ref=e308]:
+                      - generic "January 13, 2026" [ref=e311]: "13"
+                    - gridcell "January 14, 2026" [ref=e313]:
+                      - generic [ref=e314]:
+                        - generic "January 14, 2026" [ref=e316]: "14"
+                        - generic "Starters 221" [ref=e321] [cursor=pointer]:
+                          - generic [ref=e323]:
+                            - img "Starters 221" [ref=e324]
+                            - generic [ref=e325]: Starters 221
+                    - gridcell "January 15, 2026" [ref=e326]:
+                      - generic "January 15, 2026" [ref=e329]: "15"
+                    - gridcell "January 16, 2026" [ref=e331]:
+                      - generic "January 16, 2026" [ref=e334]: "16"
+                    - gridcell "January 17, 2026" [ref=e336]:
+                      - generic [ref=e337]:
+                        - generic "January 17, 2026" [ref=e339]: "17"
+                        - generic "Beginner Contest 441" [ref=e344] [cursor=pointer]:
+                          - generic [ref=e346]:
+                            - img "Beginner Contest 441" [ref=e347]
+                            - generic [ref=e348]: Beginner Contest 441
+                  - row "January 18, 2026 January 19, 2026 January 20, 2026 January 21, 2026 January 22, 2026 January 23, 2026 January 24, 2026" [ref=e349]:
+                    - gridcell "January 18, 2026" [ref=e350]:
+                      - generic "January 18, 2026" [ref=e353]: "18"
+                    - gridcell "January 19, 2026" [ref=e355]:
+                      - generic "January 19, 2026" [ref=e358]: "19"
+                    - gridcell "January 20, 2026" [ref=e360]:
+                      - generic "January 20, 2026" [ref=e363]: "20"
+                    - gridcell "January 21, 2026" [ref=e365]:
+                      - generic [ref=e366]:
+                        - generic "January 21, 2026" [ref=e368]: "21"
+                        - generic "Starters 222" [ref=e373] [cursor=pointer]:
+                          - generic [ref=e375]:
+                            - img "Starters 222" [ref=e376]
+                            - generic [ref=e377]: Starters 222
+                    - gridcell "January 22, 2026" [ref=e378]:
+                      - generic "January 22, 2026" [ref=e381]: "22"
+                    - gridcell "January 23, 2026" [ref=e383]:
+                      - generic "January 23, 2026" [ref=e386]: "23"
+                    - gridcell "January 24, 2026" [ref=e388]:
+                      - generic [ref=e389]:
+                        - generic "January 24, 2026" [ref=e391]: "24"
+                        - generic "Beginner Contest 442" [ref=e396] [cursor=pointer]:
+                          - generic [ref=e398]:
+                            - img "Beginner Contest 442" [ref=e399]
+                            - generic [ref=e400]: Beginner Contest 442
+                  - row "January 25, 2026 January 26, 2026 January 27, 2026 January 28, 2026 January 29, 2026 January 30, 2026 January 31, 2026" [ref=e401]:
+                    - gridcell "January 25, 2026" [ref=e402]:
+                      - generic "January 25, 2026" [ref=e405]: "25"
+                    - gridcell "January 26, 2026" [ref=e407]:
+                      - generic "January 26, 2026" [ref=e410]: "26"
+                    - gridcell "January 27, 2026" [ref=e412]:
+                      - generic "January 27, 2026" [ref=e415]: "27"
+                    - gridcell "January 28, 2026" [ref=e417]:
+                      - generic [ref=e418]:
+                        - generic "January 28, 2026" [ref=e420]: "28"
+                        - generic "Starters 223" [ref=e425] [cursor=pointer]:
+                          - generic [ref=e427]:
+                            - img "Starters 223" [ref=e428]
+                            - generic [ref=e429]: Starters 223
+                    - gridcell "January 29, 2026" [ref=e430]:
+                      - generic "January 29, 2026" [ref=e433]: "29"
+                    - gridcell "January 30, 2026" [ref=e435]:
+                      - generic "January 30, 2026" [ref=e438]: "30"
+                    - gridcell "January 31, 2026" [ref=e440]:
+                      - generic [ref=e441]:
+                        - generic "January 31, 2026" [ref=e443]: "31"
+                        - generic "Beginner Contest 443" [ref=e448] [cursor=pointer]:
+                          - generic [ref=e450]:
+                            - img "Beginner Contest 443" [ref=e451]
+                            - generic [ref=e452]: Beginner Contest 443
+        - generic [ref=e455]:
+          - generic [ref=e456]:
+            - generic [ref=e457]: Upcoming Contests
+            - generic [ref=e458]:
+              - generic "Starters 220" [ref=e459] [cursor=pointer]:
+                - generic [ref=e460]:
+                  - generic [ref=e461]: Jan
+                  - generic [ref=e462]: "7"
+                - generic [ref=e463]:
+                  - generic [ref=e464]: Starters 220
+                  - generic [ref=e465]:
+                    - generic [ref=e467]: Codechef
+                    - generic [ref=e468]: • 1d 23h 56m
+              - generic "Hello 2026" [ref=e469] [cursor=pointer]:
+                - generic [ref=e470]:
+                  - generic [ref=e471]: Jan
+                  - generic [ref=e472]: "7"
+                - generic [ref=e473]:
+                  - generic [ref=e474]: Hello 2026
+                  - generic [ref=e475]:
+                    - generic [ref=e477]: Codeforces
+                    - generic [ref=e478]: • 2d 0h 1m
+              - generic "Beginner Contest 440" [ref=e479] [cursor=pointer]:
+                - generic [ref=e480]:
+                  - generic [ref=e481]: Jan
+                  - generic [ref=e482]: "10"
+                - generic [ref=e483]:
+                  - generic [ref=e484]: Beginner Contest 440
+                  - generic [ref=e485]:
+                    - generic [ref=e487]: Atcoder
+                    - generic [ref=e488]: • 4d 21h 26m
+              - generic "Weekly 484" [ref=e489] [cursor=pointer]:
+                - generic [ref=e490]:
+                  - generic [ref=e491]: Jan
+                  - generic [ref=e492]: "11"
+                - generic [ref=e493]:
+                  - generic [ref=e494]: Weekly 484
+                  - generic [ref=e495]:
+                    - generic [ref=e497]: Leetcode
+                    - generic [ref=e498]: • 5d 11h 56m
+              - generic "Regular Contest 212" [ref=e499] [cursor=pointer]:
+                - generic [ref=e500]:
+                  - generic [ref=e501]: Jan
+                  - generic [ref=e502]: "11"
+                - generic [ref=e503]:
+                  - generic [ref=e504]: Regular Contest 212
+                  - generic [ref=e505]:
+                    - generic [ref=e507]: Atcoder
+                    - generic [ref=e508]: • 5d 21h 26m
+          - img "TLE Contest Calendar Course Banner" [ref=e510] [cursor=pointer]
+    - img "Report a bug" [ref=e513] [cursor=pointer]
+  - generic [ref=e515]:
+    - generic [ref=e517]:
+      - generic [ref=e518]:
+        - generic [ref=e519]: Courses
+        - generic [ref=e520]:
+          - generic [ref=e521] [cursor=pointer]: Level 1
+          - generic [ref=e522] [cursor=pointer]: Level 2
+          - generic [ref=e523] [cursor=pointer]: Level 3
+          - generic [ref=e524] [cursor=pointer]: Level 4
+      - generic [ref=e525]:
+        - generic [ref=e526]: Information
+        - generic [ref=e527]:
+          - generic [ref=e528] [cursor=pointer]: Course FAQs
+          - generic [ref=e529] [cursor=pointer]: Terms & Conditions
+          - generic [ref=e530] [cursor=pointer]: Privacy Policy
+      - generic [ref=e531]:
+        - generic [ref=e532]: Company
+        - generic [ref=e533]:
+          - generic [ref=e534] [cursor=pointer]: Our Mentors
+          - generic [ref=e535] [cursor=pointer]: Contact Us
+          - generic [ref=e536] [cursor=pointer]: Report Bug
+      - generic [ref=e537]:
+        - generic [ref=e538]: Socials
+        - generic [ref=e539]:
+          - generic [ref=e540] [cursor=pointer]: Whatsapp
+          - generic [ref=e541] [cursor=pointer]: Discord
+          - generic [ref=e542] [cursor=pointer]: LinkedIn
+          - generic [ref=e543] [cursor=pointer]: Instagram
+          - generic [ref=e544] [cursor=pointer]: Twitter
+          - generic [ref=e545] [cursor=pointer]: Youtube
+    - generic [ref=e547] [cursor=pointer]:
+      - generic [ref=e548]:
+        - img "logo" [ref=e549]
+        - generic [ref=e550]: Codelift Academy Private Limited
+      - generic [ref=e551]: "|"
+      - generic [ref=e552]: All rights reserved.
+```

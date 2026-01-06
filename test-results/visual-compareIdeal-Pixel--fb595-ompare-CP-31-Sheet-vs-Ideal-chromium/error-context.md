@@ -1,0 +1,756 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e4]:
+  - banner [ref=e6]:
+    - link "Logo TLE Eliminators" [ref=e7] [cursor=pointer]:
+      - /url: /
+      - generic [ref=e8]:
+        - img "Logo" [ref=e9]
+        - generic [ref=e10]: TLE Eliminators
+    - generic [ref=e11]:
+      - link "Home" [ref=e12] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e13]: Home
+      - link "CP Digest" [ref=e14] [cursor=pointer]:
+        - /url: /cp-digest/*
+        - generic [ref=e15]: CP Digest
+      - link "Contest Tracker" [ref=e16] [cursor=pointer]:
+        - /url: /contest-tracker
+        - generic [ref=e17]: Contest Tracker
+      - link "CP-31 Sheet" [ref=e18] [cursor=pointer]:
+        - /url: /cp-sheet
+        - generic [ref=e19]: CP-31 Sheet
+      - link "Courses" [ref=e20] [cursor=pointer]:
+        - /url: /courses
+        - generic [ref=e21]: Courses
+    - generic [ref=e22]:
+      - button "Switch to Dark Mode" [ref=e23] [cursor=pointer]:
+        - img "Switch to Dark Mode" [ref=e24]
+      - button "Login / Register" [ref=e25] [cursor=pointer]
+  - generic [ref=e26]:
+    - generic [ref=e27]:
+      - generic [ref=e28]:
+        - generic [ref=e29]:
+          - generic [ref=e30]: CP-31 Sheet
+          - generic [ref=e31]: Hand-picked Problems
+        - generic [ref=e32]:
+          - text: This sheet is curated by
+          - link "Priyansh31dec" [ref=e33] [cursor=pointer]:
+            - /url: https://www.linkedin.com/in/priyansh-agarwal/
+          - text: "-"
+          - link "Master" [ref=e34] [cursor=pointer]:
+            - /url: https://codeforces.com/profile/Priyansh31dec
+          - text: on Codeforces and ICPC World Finalist. Priyansh has solved 4000+ algorithmic problems and has spent 200+ hours reading 1800+ problems to pick 31 problems in each rating from 800 - 1900 containing the most interesting and reusable concepts.
+        - generic [ref=e35]:
+          - button "Explore Courses" [ref=e36] [cursor=pointer]
+          - button "Want a tour?" [ref=e37] [cursor=pointer]
+      - iframe [ref=e41]:
+        - generic "YouTube Video Player" [ref=f3e3]:
+          - generic [ref=f3e5]:
+            - link "Photo image of Priyansh Agarwal" [ref=f3e7] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UCdSZKaL2R4y-ZX5W57sf2rQ?embeds_referring_euri=https%3A%2F%2Fwww.tle-eliminators.com%2F
+            - link "CP Sheet Version 3 | Handpicked Codeforces Problems from 800 to 1900 | @TLE_Eliminators" [ref=f3e10] [cursor=pointer]:
+              - /url: https://www.youtube.com/watch?v=yMhJGm6D4Kk
+            - button "Share" [ref=f3e12] [cursor=pointer]:
+              - generic [ref=f3e13]:
+                - img
+              - generic [ref=f3e14]: Share
+          - button "Play" [ref=f3e17] [cursor=pointer]:
+            - img
+          - link "Watch on YouTube" [ref=f3e18] [cursor=pointer]:
+            - /url: https://www.youtube.com/watch?v=yMhJGm6D4Kk&embeds_referring_euri=https%3A%2F%2Fwww.tle-eliminators.com%2F
+            - generic [ref=f3e19]: Watch on
+            - generic [ref=f3e20]:
+              - img
+    - generic [ref=e42]:
+      - generic [ref=e43]:
+        - generic [ref=e44]: Rating
+        - generic [ref=e45]:
+          - generic [ref=e46] [cursor=pointer]: "800"
+          - generic [ref=e47] [cursor=pointer]: "900"
+          - generic [ref=e48] [cursor=pointer]: "1000"
+          - generic [ref=e49] [cursor=pointer]: "1100"
+          - generic [ref=e50] [cursor=pointer]: "1200"
+          - generic [ref=e51] [cursor=pointer]: "1300"
+          - generic [ref=e52] [cursor=pointer]: "1400"
+          - generic [ref=e53] [cursor=pointer]: "1500"
+          - generic [ref=e54] [cursor=pointer]: "1600"
+          - generic [ref=e55] [cursor=pointer]: "1700"
+          - generic [ref=e56] [cursor=pointer]: "1800"
+          - generic [ref=e57] [cursor=pointer]: "1900"
+      - generic [ref=e58]:
+        - generic [ref=e59]:
+          - generic [ref=e60]:
+            - generic [ref=e61]: Rating Progress
+            - generic [ref=e62]:
+              - generic [ref=e63]: 0/31
+              - generic [ref=e64]: Problems Solved
+          - img [ref=e66]:
+            - generic [ref=e69]: 0%
+        - generic [ref=e70]:
+          - generic [ref=e71]:
+            - generic [ref=e72]: Overall Progress
+            - generic [ref=e73]:
+              - generic [ref=e74]: 0/372
+              - generic [ref=e75]: Problems Solved
+          - img [ref=e77]:
+            - generic [ref=e80]: 0%
+      - generic [ref=e81]:
+        - generic [ref=e82]: Leaderboard
+        - generic [ref=e84]:
+          - generic [ref=e85]:
+            - generic [ref=e86]: N/A
+            - generic [ref=e87]: Rank
+          - img [ref=e88] [cursor=pointer]
+    - generic [ref=e90]:
+      - generic [ref=e91]:
+        - generic [ref=e92]:
+          - heading "No Data available Login to view the submissions heatmap." [level=3] [ref=e95]:
+            - text: No Data available
+            - text: Login to view the submissions heatmap.
+          - generic [ref=e97]:
+            - generic [ref=e99]:
+              - strong
+              - text: Active days
+            - generic [ref=e100]:
+              - img [ref=e102] [cursor=pointer]
+              - generic [ref=e105]:
+                - log [ref=e107]
+                - generic [ref=e108]:
+                  - generic [ref=e109]:
+                    - generic [ref=e111]: Global
+                    - combobox [ref=e112]
+                  - img [ref=e116]
+              - img "fire" [ref=e119]: 🔥 0 Days AC Streak
+              - generic [ref=e120]: "Longest: 0"
+          - generic [ref=e121]:
+            - generic [ref=e122]:
+              - img [ref=e123]
+              - generic [ref=e158]: Feb
+            - generic [ref=e159]:
+              - img [ref=e160]
+              - generic [ref=e199]: Mar
+            - generic [ref=e200]:
+              - img [ref=e201]
+              - generic [ref=e238]: Apr
+            - generic [ref=e239]:
+              - img [ref=e240]
+              - generic [ref=e278]: May
+            - generic [ref=e279]:
+              - img [ref=e280]
+              - generic [ref=e317]: Jun
+            - generic [ref=e318]:
+              - img [ref=e319]
+              - generic [ref=e357]: Jul
+            - generic [ref=e358]:
+              - img [ref=e359]
+              - generic [ref=e398]: Aug
+            - generic [ref=e399]:
+              - img [ref=e400]
+              - generic [ref=e437]: Sep
+            - generic [ref=e438]:
+              - img [ref=e439]
+              - generic [ref=e477]: Oct
+            - generic [ref=e478]:
+              - img [ref=e479]
+              - generic [ref=e517]: Nov
+            - generic [ref=e518]:
+              - img [ref=e519]
+              - generic [ref=e557]: Dec
+            - generic [ref=e558]:
+              - img [ref=e559]
+              - generic [ref=e568]: Jan
+          - generic [ref=e569]:
+            - generic [ref=e571]:
+              - strong
+              - text: problems solved this year
+            - generic [ref=e572]:
+              - generic [ref=e573]: Less
+              - img "Fire Superb!" [ref=e580]
+              - generic [ref=e581]: More
+        - generic [ref=e582]:
+          - generic [ref=e583]:
+            - generic [ref=e584]:
+              - generic [ref=e585]:
+                - button "All" [ref=e586] [cursor=pointer]: All
+                - button "Bookmarked" [ref=e588] [cursor=pointer]
+                - button "Notes" [ref=e589] [cursor=pointer]
+              - generic [ref=e590]:
+                - generic [ref=e591]:
+                  - generic [ref=e592]: Focus Mode
+                  - checkbox [ref=e595]
+                - img [ref=e598] [cursor=pointer]
+            - button "codeforces Connect Codeforces" [ref=e601] [cursor=pointer]:
+              - img "codeforces" [ref=e602]
+              - text: Connect Codeforces
+          - generic [ref=e604]:
+            - generic [ref=e605]:
+              - generic [ref=e607]:
+                - text: Problem
+                - img [ref=e608]
+              - generic "Solution" [ref=e610]
+              - generic "Notes" [ref=e611]
+              - generic "Status" [ref=e612]
+              - generic "Bookmark" [ref=e613]
+              - generic "Discuss" [ref=e614]
+              - generic "Concept" [ref=e615]
+            - generic [ref=e616]:
+              - generic [ref=e617]:
+                - generic [ref=e619] [cursor=pointer]: 1. Halloumi Boxes
+                - img [ref=e621] [cursor=pointer]
+                - img [ref=e623] [cursor=pointer]
+                - img [ref=e628] [cursor=pointer]
+                - img [ref=e630] [cursor=pointer]
+                - img [ref=e633] [cursor=pointer]
+                - img [ref=e636] [cursor=pointer]
+              - generic [ref=e637]:
+                - generic [ref=e639] [cursor=pointer]: 2. Line Trip
+                - img [ref=e641] [cursor=pointer]
+                - img [ref=e643] [cursor=pointer]
+                - img [ref=e648] [cursor=pointer]
+                - img [ref=e650] [cursor=pointer]
+                - img [ref=e653] [cursor=pointer]
+                - img [ref=e656] [cursor=pointer]
+              - generic [ref=e657]:
+                - generic [ref=e659] [cursor=pointer]: 3. Cover in Water
+                - img [ref=e661] [cursor=pointer]
+                - img [ref=e663] [cursor=pointer]
+                - img [ref=e668] [cursor=pointer]
+                - img [ref=e670] [cursor=pointer]
+                - img [ref=e673] [cursor=pointer]
+                - img [ref=e676] [cursor=pointer]
+              - generic [ref=e677]:
+                - generic [ref=e679] [cursor=pointer]: 4. Game with Integers
+                - img [ref=e681] [cursor=pointer]
+                - img [ref=e683] [cursor=pointer]
+                - img [ref=e688] [cursor=pointer]
+                - img [ref=e690] [cursor=pointer]
+                - img [ref=e693] [cursor=pointer]
+                - img [ref=e696] [cursor=pointer]
+              - generic [ref=e697]:
+                - generic [ref=e699] [cursor=pointer]: 5. Jagged Swaps
+                - img [ref=e701] [cursor=pointer]
+                - img [ref=e703] [cursor=pointer]
+                - img [ref=e708] [cursor=pointer]
+                - img [ref=e710] [cursor=pointer]
+                - img [ref=e713] [cursor=pointer]
+                - img [ref=e716] [cursor=pointer]
+              - generic [ref=e717]:
+                - generic [ref=e719] [cursor=pointer]: 6. Doremy's Paint 3
+                - img [ref=e721] [cursor=pointer]
+                - img [ref=e723] [cursor=pointer]
+                - img [ref=e728] [cursor=pointer]
+                - img [ref=e730] [cursor=pointer]
+                - img [ref=e733] [cursor=pointer]
+                - img [ref=e736] [cursor=pointer]
+              - generic [ref=e737]:
+                - generic [ref=e739] [cursor=pointer]: 7. Don't Try to Count
+                - img [ref=e741] [cursor=pointer]
+                - img [ref=e743] [cursor=pointer]
+                - img [ref=e748] [cursor=pointer]
+                - img [ref=e750] [cursor=pointer]
+                - img [ref=e753] [cursor=pointer]
+                - img [ref=e756] [cursor=pointer]
+              - generic [ref=e757]:
+                - generic [ref=e759] [cursor=pointer]: 8. How Much Does Daytona Cost?
+                - img [ref=e761] [cursor=pointer]
+                - img [ref=e763] [cursor=pointer]
+                - img [ref=e768] [cursor=pointer]
+                - img [ref=e770] [cursor=pointer]
+                - img [ref=e773] [cursor=pointer]
+                - img [ref=e776] [cursor=pointer]
+              - generic [ref=e777]:
+                - generic [ref=e779] [cursor=pointer]: 9. Goals of Victory
+                - img [ref=e781] [cursor=pointer]
+                - img [ref=e783] [cursor=pointer]
+                - img [ref=e788] [cursor=pointer]
+                - img [ref=e790] [cursor=pointer]
+                - img [ref=e793] [cursor=pointer]
+                - img [ref=e796] [cursor=pointer]
+              - generic [ref=e797]:
+                - generic [ref=e799] [cursor=pointer]: 10. Target Practice
+                - img [ref=e801] [cursor=pointer]
+                - img [ref=e803] [cursor=pointer]
+                - img [ref=e808] [cursor=pointer]
+                - img [ref=e810] [cursor=pointer]
+                - img [ref=e813] [cursor=pointer]
+                - img [ref=e816] [cursor=pointer]
+              - generic [ref=e817]:
+                - generic [ref=e819] [cursor=pointer]: 11. Ambitious Kid
+                - img [ref=e821] [cursor=pointer]
+                - img [ref=e823] [cursor=pointer]
+                - img [ref=e828] [cursor=pointer]
+                - img [ref=e830] [cursor=pointer]
+                - img [ref=e833] [cursor=pointer]
+                - img [ref=e836] [cursor=pointer]
+              - generic [ref=e837]:
+                - generic [ref=e839] [cursor=pointer]: 12. Sequence Game
+                - img [ref=e841] [cursor=pointer]
+                - img [ref=e843] [cursor=pointer]
+                - img [ref=e848] [cursor=pointer]
+                - img [ref=e850] [cursor=pointer]
+                - img [ref=e853] [cursor=pointer]
+                - img [ref=e856] [cursor=pointer]
+              - generic [ref=e857]:
+                - generic [ref=e859] [cursor=pointer]: 13. United We Stand
+                - img [ref=e861] [cursor=pointer]
+                - img [ref=e863] [cursor=pointer]
+                - img [ref=e868] [cursor=pointer]
+                - img [ref=e870] [cursor=pointer]
+                - img [ref=e873] [cursor=pointer]
+                - img [ref=e876] [cursor=pointer]
+              - generic [ref=e877]:
+                - generic [ref=e879] [cursor=pointer]: 14. Buttons
+                - img [ref=e881] [cursor=pointer]
+                - img [ref=e883] [cursor=pointer]
+                - img [ref=e888] [cursor=pointer]
+                - img [ref=e890] [cursor=pointer]
+                - img [ref=e893] [cursor=pointer]
+                - img [ref=e896] [cursor=pointer]
+              - generic [ref=e897]:
+                - generic [ref=e899] [cursor=pointer]: 15. Array Coloring
+                - img [ref=e901] [cursor=pointer]
+                - img [ref=e903] [cursor=pointer]
+                - img [ref=e908] [cursor=pointer]
+                - img [ref=e910] [cursor=pointer]
+                - img [ref=e913] [cursor=pointer]
+                - img [ref=e916] [cursor=pointer]
+              - generic [ref=e917]:
+                - generic [ref=e919] [cursor=pointer]: 16. Desorting
+                - img [ref=e921] [cursor=pointer]
+                - img [ref=e923] [cursor=pointer]
+                - img [ref=e928] [cursor=pointer]
+                - img [ref=e930] [cursor=pointer]
+                - img [ref=e933] [cursor=pointer]
+                - img [ref=e936] [cursor=pointer]
+              - generic [ref=e937]:
+                - generic [ref=e939] [cursor=pointer]: 17. Forbidden Integer
+                - img [ref=e941] [cursor=pointer]
+                - img [ref=e943] [cursor=pointer]
+                - img [ref=e948] [cursor=pointer]
+                - img [ref=e950] [cursor=pointer]
+                - img [ref=e953] [cursor=pointer]
+                - img [ref=e956] [cursor=pointer]
+              - generic [ref=e957]:
+                - generic [ref=e959] [cursor=pointer]: 18. Grasshopper on a Line
+                - img [ref=e961] [cursor=pointer]
+                - img [ref=e963] [cursor=pointer]
+                - img [ref=e968] [cursor=pointer]
+                - img [ref=e970] [cursor=pointer]
+                - img [ref=e973] [cursor=pointer]
+                - img [ref=e976] [cursor=pointer]
+              - generic [ref=e977]:
+                - generic [ref=e979] [cursor=pointer]: 19. Unit Array
+                - img [ref=e981] [cursor=pointer]
+                - img [ref=e983] [cursor=pointer]
+                - img [ref=e988] [cursor=pointer]
+                - img [ref=e990] [cursor=pointer]
+                - img [ref=e993] [cursor=pointer]
+                - img [ref=e996] [cursor=pointer]
+              - generic [ref=e997]:
+                - generic [ref=e999] [cursor=pointer]: 20. Twin Permutations
+                - img [ref=e1001] [cursor=pointer]
+                - img [ref=e1003] [cursor=pointer]
+                - img [ref=e1008] [cursor=pointer]
+                - img [ref=e1010] [cursor=pointer]
+                - img [ref=e1013] [cursor=pointer]
+                - img [ref=e1016] [cursor=pointer]
+              - generic [ref=e1017]:
+                - generic [ref=e1019] [cursor=pointer]: 21. Blank Space
+                - img [ref=e1021] [cursor=pointer]
+                - img [ref=e1023] [cursor=pointer]
+                - img [ref=e1028] [cursor=pointer]
+                - img [ref=e1030] [cursor=pointer]
+                - img [ref=e1033] [cursor=pointer]
+                - img [ref=e1036] [cursor=pointer]
+              - generic [ref=e1037]:
+                - generic [ref=e1039] [cursor=pointer]: 22. Coins
+                - img [ref=e1041] [cursor=pointer]
+                - img [ref=e1043] [cursor=pointer]
+                - img [ref=e1048] [cursor=pointer]
+                - img [ref=e1050] [cursor=pointer]
+                - img [ref=e1053] [cursor=pointer]
+                - img [ref=e1056] [cursor=pointer]
+              - generic [ref=e1057]:
+                - generic [ref=e1059] [cursor=pointer]: 23. Walking Master
+                - img [ref=e1061] [cursor=pointer]
+                - img [ref=e1063] [cursor=pointer]
+                - img [ref=e1068] [cursor=pointer]
+                - img [ref=e1070] [cursor=pointer]
+                - img [ref=e1073] [cursor=pointer]
+                - img [ref=e1076] [cursor=pointer]
+              - generic [ref=e1077]:
+                - generic [ref=e1079] [cursor=pointer]: 24. We Need the Zero
+                - img [ref=e1081] [cursor=pointer]
+                - img [ref=e1083] [cursor=pointer]
+                - img [ref=e1088] [cursor=pointer]
+                - img [ref=e1090] [cursor=pointer]
+                - img [ref=e1093] [cursor=pointer]
+                - img [ref=e1096] [cursor=pointer]
+              - generic [ref=e1097]:
+                - generic [ref=e1099] [cursor=pointer]: 25. Prepend and Append
+                - img [ref=e1101] [cursor=pointer]
+                - img [ref=e1103] [cursor=pointer]
+                - img [ref=e1108] [cursor=pointer]
+                - img [ref=e1110] [cursor=pointer]
+                - img [ref=e1113] [cursor=pointer]
+                - img [ref=e1116] [cursor=pointer]
+              - generic [ref=e1117]:
+                - generic [ref=e1119] [cursor=pointer]: 26. Serval and Mocha's Array
+                - img [ref=e1121] [cursor=pointer]
+                - img [ref=e1123] [cursor=pointer]
+                - img [ref=e1128] [cursor=pointer]
+                - img [ref=e1130] [cursor=pointer]
+                - img [ref=e1133] [cursor=pointer]
+                - img [ref=e1136] [cursor=pointer]
+              - generic [ref=e1137]:
+                - generic [ref=e1139] [cursor=pointer]: 27. One and Two
+                - img [ref=e1141] [cursor=pointer]
+                - img [ref=e1143] [cursor=pointer]
+                - img [ref=e1148] [cursor=pointer]
+                - img [ref=e1150] [cursor=pointer]
+                - img [ref=e1153] [cursor=pointer]
+                - img [ref=e1156] [cursor=pointer]
+              - generic [ref=e1157]:
+                - generic [ref=e1159] [cursor=pointer]: 28. Make it Beautiful
+                - img [ref=e1161] [cursor=pointer]
+                - img [ref=e1163] [cursor=pointer]
+                - img [ref=e1168] [cursor=pointer]
+                - img [ref=e1170] [cursor=pointer]
+                - img [ref=e1173] [cursor=pointer]
+                - img [ref=e1176] [cursor=pointer]
+              - generic [ref=e1177]:
+                - generic [ref=e1179] [cursor=pointer]: 29. Everybody Likes Good Arrays!
+                - img [ref=e1181] [cursor=pointer]
+                - img [ref=e1183] [cursor=pointer]
+                - img [ref=e1188] [cursor=pointer]
+                - img [ref=e1190] [cursor=pointer]
+                - img [ref=e1193] [cursor=pointer]
+                - img [ref=e1196] [cursor=pointer]
+              - generic [ref=e1197]:
+                - generic [ref=e1199] [cursor=pointer]: 30. Extremely Round
+                - img [ref=e1201] [cursor=pointer]
+                - img [ref=e1203] [cursor=pointer]
+                - img [ref=e1208] [cursor=pointer]
+                - img [ref=e1210] [cursor=pointer]
+                - img [ref=e1213] [cursor=pointer]
+                - img [ref=e1216] [cursor=pointer]
+              - generic [ref=e1217]:
+                - generic [ref=e1219] [cursor=pointer]: 31. Two Permutations
+                - img [ref=e1221] [cursor=pointer]
+                - img [ref=e1223] [cursor=pointer]
+                - img [ref=e1228] [cursor=pointer]
+                - img [ref=e1230] [cursor=pointer]
+                - img [ref=e1233] [cursor=pointer]
+                - img [ref=e1236] [cursor=pointer]
+      - generic [ref=e1237]:
+        - generic [ref=e1240]:
+          - generic [ref=e1242]:
+            - generic [ref=e1243]:
+              - img [ref=e1245]
+              - generic [ref=e1247]:
+                - generic [ref=e1248]: Current Visit Streak
+                - generic [ref=e1249]: 0 day
+            - generic [ref=e1251]:
+              - generic [ref=e1252]: 🔥
+              - generic [ref=e1253]:
+                - generic [ref=e1254]: Longest Visit Streak
+                - generic [ref=e1255]: 0 day
+          - generic [ref=e1256]:
+            - heading "Signup/Login Unlock your streak insights 🔥" [level=3] [ref=e1259]:
+              - text: Signup/Login
+              - text: Unlock your streak insights 🔥
+            - generic [ref=e1260]:
+              - generic [ref=e1261]: Visit Streak Calendar
+              - img [ref=e1263] [cursor=pointer]
+            - generic [ref=e1265]:
+              - generic [ref=e1266]:
+                - img [ref=e1268]
+                - text: Jan 2026
+              - generic [ref=e1270]:
+                - button "Previous month" [ref=e1271] [cursor=pointer]: <
+                - button "Next month" [ref=e1272] [cursor=pointer]: ">"
+            - generic [ref=e1278]:
+              - generic [ref=e1279]:
+                - generic [ref=e1280]: Mo
+                - generic [ref=e1281]: Tu
+                - generic [ref=e1282]: We
+                - generic [ref=e1283]: Th
+                - generic [ref=e1284]: Fr
+                - generic [ref=e1285]: Sa
+                - generic [ref=e1286]: Su
+              - generic [ref=e1287]:
+                - button "1" [ref=e1288]:
+                  - generic [ref=e1290]: "1"
+                - button "2" [ref=e1291]:
+                  - generic [ref=e1293]: "2"
+                - button "3" [ref=e1294]:
+                  - generic [ref=e1296]: "3"
+                - button "4" [ref=e1297]:
+                  - generic [ref=e1299]: "4"
+                - button "Code Block" [ref=e1300]:
+                  - img "Code Block" [ref=e1303]
+                - button "6" [ref=e1304]:
+                  - generic [ref=e1306]: "6"
+                - button "7" [ref=e1307]:
+                  - generic [ref=e1309]: "7"
+                - button "8" [ref=e1310]:
+                  - generic [ref=e1312]: "8"
+                - button "9" [ref=e1313]:
+                  - generic [ref=e1315]: "9"
+                - button "10" [ref=e1316]:
+                  - generic [ref=e1318]: "10"
+                - button "11" [ref=e1319]:
+                  - generic [ref=e1321]: "11"
+                - button "12" [ref=e1322]:
+                  - generic [ref=e1324]: "12"
+                - button "13" [ref=e1325]:
+                  - generic [ref=e1327]: "13"
+                - button "14" [ref=e1328]:
+                  - generic [ref=e1330]: "14"
+                - button "15" [ref=e1331]:
+                  - generic [ref=e1333]: "15"
+                - button "16" [ref=e1334]:
+                  - generic [ref=e1336]: "16"
+                - button "17" [ref=e1337]:
+                  - generic [ref=e1339]: "17"
+                - button "18" [ref=e1340]:
+                  - generic [ref=e1342]: "18"
+                - button "19" [ref=e1343]:
+                  - generic [ref=e1345]: "19"
+                - button "20" [ref=e1346]:
+                  - generic [ref=e1348]: "20"
+                - button "21" [ref=e1349]:
+                  - generic [ref=e1351]: "21"
+                - button "22" [ref=e1352]:
+                  - generic [ref=e1354]: "22"
+                - button "23" [ref=e1355]:
+                  - generic [ref=e1357]: "23"
+                - button "24" [ref=e1358]:
+                  - generic [ref=e1360]: "24"
+                - button "25" [ref=e1361]:
+                  - generic [ref=e1363]: "25"
+                - button "26" [ref=e1364]:
+                  - generic [ref=e1366]: "26"
+                - button "27" [ref=e1367]:
+                  - generic [ref=e1369]: "27"
+                - button "28" [ref=e1370]:
+                  - generic [ref=e1372]: "28"
+                - button "29" [ref=e1373]:
+                  - generic [ref=e1375]: "29"
+                - button "30" [ref=e1376]:
+                  - generic [ref=e1378]: "30"
+                - button "31" [ref=e1379]:
+                  - generic [ref=e1381]: "31"
+        - generic [ref=e1383]:
+          - generic [ref=e1384]:
+            - generic [ref=e1385]: Leaderboard
+            - img [ref=e1387] [cursor=pointer]
+            - img [ref=e1390] [cursor=pointer]
+          - generic [ref=e1393]:
+            - generic [ref=e1395]:
+              - button "Users" [ref=e1396] [cursor=pointer]
+              - button "Institutes" [ref=e1397] [cursor=pointer]
+            - heading "Signup/Login to Unlock Leaderboard 🔥" [level=3] [ref=e1400]
+            - generic [ref=e1401]:
+              - generic [ref=e1402]:
+                - generic [ref=e1403]: "2"
+                - img [ref=e1407]
+              - generic [ref=e1409]:
+                - generic [ref=e1410]: "1"
+                - img [ref=e1414]
+              - generic [ref=e1416]:
+                - generic [ref=e1417]: "3"
+                - img [ref=e1421]
+        - generic [ref=e1424]:
+          - generic [ref=e1425]: CP-31 Statistics
+          - generic [ref=e1426]:
+            - generic [ref=e1427]:
+              - img [ref=e1428]
+              - generic [ref=e1429]:
+                - generic [ref=e1430]: "138166"
+                - generic [ref=e1431]: Total Users
+            - generic [ref=e1432]:
+              - img [ref=e1433]
+              - generic [ref=e1434]:
+                - generic [ref=e1435]: "8727"
+                - generic [ref=e1436]: Visits Today
+        - generic [ref=e1437]:
+          - generic [ref=e1439] [cursor=pointer]:
+            - generic [ref=e1440]: How were these problems chosen?
+            - img [ref=e1441]
+          - generic [ref=e1444] [cursor=pointer]:
+            - generic [ref=e1445]: Which problems should you solve?
+            - img [ref=e1446]
+        - generic [ref=e1448]:
+          - generic [ref=e1449]: Explore our Courses
+          - generic [ref=e1453]:
+            - generic [ref=e1455]: Level 1 Self-Paced
+            - generic [ref=e1456]:
+              - generic [ref=e1457]:
+                - img "user" [ref=e1458] [cursor=pointer]
+                - generic [ref=e1459]: 2800 Past Students
+              - generic [ref=e1460]: For complete beginners who are starting their coding journey.
+              - generic [ref=e1461]:
+                - generic [ref=e1462]:
+                  - img "level-1" [ref=e1463] [cursor=pointer]
+                  - generic [ref=e1464]: Beginner
+                - button "Check Out" [ref=e1465] [cursor=pointer]
+          - generic [ref=e1466]:
+            - button [ref=e1467] [cursor=pointer]
+            - button [ref=e1468] [cursor=pointer]
+            - button [ref=e1469] [cursor=pointer]
+            - button [ref=e1470] [cursor=pointer]
+        - generic [ref=e1471]:
+          - generic [ref=e1472]: Explore our Channels
+          - generic [ref=e1473]:
+            - iframe [ref=e1476]:
+              - generic "YouTube Video Player" [ref=f4e3]:
+                - generic [ref=f4e5]:
+                  - link "Photo image of TLE Eliminators - by Priyansh" [ref=f4e7] [cursor=pointer]:
+                    - /url: https://www.youtube.com/channel/UCqL-fzHtN3NQPbYqGymMbTA?embeds_referring_euri=https%3A%2F%2Fwww.tle-eliminators.com%2F
+                  - link "Educational Codeforces Round 186 | Video Solutions - A to E | by Pradyumn | TLE Eliminators" [ref=f4e10] [cursor=pointer]:
+                    - /url: https://www.youtube.com/watch?list=PLcXpkI9A-RZLUfBSNp-YQBCOezZKbDSgB&v=mS9pozwgBKM
+                  - generic [ref=f4e11]:
+                    - button "Playlist" [ref=f4e12] [cursor=pointer]:
+                      - generic [ref=f4e13]:
+                        - img
+                    - button "More" [ref=f4e14] [cursor=pointer]:
+                      - generic [ref=f4e15]:
+                        - img
+                - button "Play" [ref=f4e18] [cursor=pointer]:
+                  - img
+            - iframe [ref=e1479]:
+              - generic "YouTube Video Player" [ref=f5e3]:
+                - generic [ref=f5e5]:
+                  - link "Photo image of Priyansh Agarwal" [ref=f5e7] [cursor=pointer]:
+                    - /url: https://www.youtube.com/channel/UCdSZKaL2R4y-ZX5W57sf2rQ?embeds_referring_euri=https%3A%2F%2Fwww.tle-eliminators.com%2F
+                  - link "Competitive Programming Roadmap | 0 to 6⭐ and Candidate Master | How to Start | 2024" [ref=f5e10] [cursor=pointer]:
+                    - /url: https://www.youtube.com/watch?v=n-Xkbqcfi9w
+                  - button "More" [ref=f5e12] [cursor=pointer]:
+                    - generic [ref=f5e13]:
+                      - img
+                - button "Play" [ref=f5e16] [cursor=pointer]:
+                  - img
+    - generic [ref=e1480]:
+      - generic [ref=e1481]: CP-31 Contributors
+      - generic [ref=e1482]:
+        - generic [ref=e1483]:
+          - img [ref=e1484] [cursor=pointer]
+          - generic [ref=e1485]:
+            - generic [ref=e1486]: Ashish Meena
+            - generic [ref=e1487]: IIT Kanpur
+            - generic [ref=e1488]:
+              - img [ref=e1489] [cursor=pointer]
+              - img [ref=e1490] [cursor=pointer]
+        - generic [ref=e1491]:
+          - img [ref=e1492] [cursor=pointer]
+          - generic [ref=e1493]:
+            - generic [ref=e1494]: Viraj Chandra
+            - generic [ref=e1495]: NIT Raipur
+            - generic [ref=e1496]:
+              - img [ref=e1497] [cursor=pointer]
+              - img [ref=e1498] [cursor=pointer]
+        - generic [ref=e1499]:
+          - img [ref=e1500] [cursor=pointer]
+          - generic [ref=e1501]:
+            - generic [ref=e1502]: Anikate Koul
+            - generic [ref=e1503]: IIIT Lucknow
+            - generic [ref=e1504]:
+              - img [ref=e1505] [cursor=pointer]
+              - img [ref=e1506] [cursor=pointer]
+        - generic [ref=e1507]:
+          - img [ref=e1508] [cursor=pointer]
+          - generic [ref=e1509]:
+            - generic [ref=e1510]: Harsh Gupta
+            - generic [ref=e1511]: Jadavpur University
+            - generic [ref=e1512]:
+              - img [ref=e1513] [cursor=pointer]
+              - img [ref=e1514] [cursor=pointer]
+        - generic [ref=e1515]:
+          - img [ref=e1516] [cursor=pointer]
+          - generic [ref=e1517]:
+            - generic [ref=e1518]: Soumojit Chatterjee
+            - generic [ref=e1519]: IIT Kharagpur
+            - generic [ref=e1520]:
+              - img [ref=e1521] [cursor=pointer]
+              - img [ref=e1522] [cursor=pointer]
+        - generic [ref=e1523]:
+          - img [ref=e1524] [cursor=pointer]
+          - generic [ref=e1525]:
+            - generic [ref=e1526]: Tushar Mahajan
+            - generic [ref=e1527]: IIIT Delhi
+            - generic [ref=e1528]:
+              - img [ref=e1529] [cursor=pointer]
+              - img [ref=e1530] [cursor=pointer]
+        - generic [ref=e1531]:
+          - img [ref=e1532] [cursor=pointer]
+          - generic [ref=e1533]:
+            - generic [ref=e1534]: Vibhor Singh
+            - generic [ref=e1535]: NIT Raipur
+            - generic [ref=e1536]:
+              - img [ref=e1537] [cursor=pointer]
+              - img [ref=e1538] [cursor=pointer]
+        - generic [ref=e1539]:
+          - img [ref=e1540] [cursor=pointer]
+          - generic [ref=e1541]:
+            - generic [ref=e1542]: Hardik Aswal
+            - generic [ref=e1543]: IIT Goa
+            - generic [ref=e1544]:
+              - img [ref=e1545] [cursor=pointer]
+              - img [ref=e1546] [cursor=pointer]
+        - generic [ref=e1547]:
+          - img [ref=e1548] [cursor=pointer]
+          - generic [ref=e1549]:
+            - generic [ref=e1550]: Leela Sai
+            - generic [ref=e1551]: IIT ISM Dhanbad
+            - generic [ref=e1552]:
+              - img [ref=e1553] [cursor=pointer]
+              - img [ref=e1554] [cursor=pointer]
+        - generic [ref=e1555]:
+          - img [ref=e1556] [cursor=pointer]
+          - generic [ref=e1557]:
+            - generic [ref=e1558]: Abhinav Kumar
+            - generic [ref=e1559]: IIT ISM Dhanbad
+            - generic [ref=e1560]:
+              - img [ref=e1561] [cursor=pointer]
+              - img [ref=e1562] [cursor=pointer]
+    - img "Report a bug" [ref=e1565] [cursor=pointer]
+  - generic [ref=e1567]:
+    - generic [ref=e1569]:
+      - generic [ref=e1570]:
+        - generic [ref=e1571]: Courses
+        - generic [ref=e1572]:
+          - generic [ref=e1573] [cursor=pointer]: Level 1
+          - generic [ref=e1574] [cursor=pointer]: Level 2
+          - generic [ref=e1575] [cursor=pointer]: Level 3
+          - generic [ref=e1576] [cursor=pointer]: Level 4
+      - generic [ref=e1577]:
+        - generic [ref=e1578]: Information
+        - generic [ref=e1579]:
+          - generic [ref=e1580] [cursor=pointer]: Course FAQs
+          - generic [ref=e1581] [cursor=pointer]: Terms & Conditions
+          - generic [ref=e1582] [cursor=pointer]: Privacy Policy
+      - generic [ref=e1583]:
+        - generic [ref=e1584]: Company
+        - generic [ref=e1585]:
+          - generic [ref=e1586] [cursor=pointer]: Our Mentors
+          - generic [ref=e1587] [cursor=pointer]: Contact Us
+          - generic [ref=e1588] [cursor=pointer]: Report Bug
+      - generic [ref=e1589]:
+        - generic [ref=e1590]: Socials
+        - generic [ref=e1591]:
+          - generic [ref=e1592] [cursor=pointer]: Whatsapp
+          - generic [ref=e1593] [cursor=pointer]: Discord
+          - generic [ref=e1594] [cursor=pointer]: LinkedIn
+          - generic [ref=e1595] [cursor=pointer]: Instagram
+          - generic [ref=e1596] [cursor=pointer]: Twitter
+          - generic [ref=e1597] [cursor=pointer]: Youtube
+    - generic [ref=e1599] [cursor=pointer]:
+      - generic [ref=e1600]:
+        - img "logo" [ref=e1601]
+        - generic [ref=e1602]: Codelift Academy Private Limited
+      - generic [ref=e1603]: "|"
+      - generic [ref=e1604]: All rights reserved.
+```
